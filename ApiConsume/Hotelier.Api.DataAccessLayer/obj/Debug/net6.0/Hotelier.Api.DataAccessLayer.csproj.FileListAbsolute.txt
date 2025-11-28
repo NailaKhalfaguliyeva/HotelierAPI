@@ -1,0 +1,17 @@
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\bin\Debug\net6.0\Hotelier.Api.DataAccessLayer.deps.json
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\bin\Debug\net6.0\Hotelier.Api.DataAccessLayer.runtimeconfig.json
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\bin\Debug\net6.0\Hotelier.Api.DataAccessLayer.dll
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\bin\Debug\net6.0\Hotelier.Api.DataAccessLayer.pdb
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\bin\Debug\net6.0\Hotelier.Api.EntityLayer.dll
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\bin\Debug\net6.0\Hotelier.Api.EntityLayer.pdb
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\obj\Debug\net6.0\Hotelier.Api.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\obj\Debug\net6.0\Hotelier.Api.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\obj\Debug\net6.0\Hotelier.Api.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\obj\Debug\net6.0\Hotelier.Api.DataAccessLayer.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\obj\Debug\net6.0\Hotelier.Api.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\obj\Debug\net6.0\Hotelier.C7A22FEC.Up2Date
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\obj\Debug\net6.0\Hotelier.Api.DataAccessLayer.dll
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\obj\Debug\net6.0\refint\Hotelier.Api.DataAccessLayer.dll
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\obj\Debug\net6.0\Hotelier.Api.DataAccessLayer.pdb
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\obj\Debug\net6.0\Hotelier.Api.DataAccessLayer.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\obj\Debug\net6.0\ref\Hotelier.Api.DataAccessLayer.dll

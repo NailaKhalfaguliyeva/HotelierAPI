@@ -1,0 +1,17 @@
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\bin\Debug\net6.0\Hotelier.Api.DtoLayer.deps.json
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\bin\Debug\net6.0\Hotelier.Api.DtoLayer.runtimeconfig.json
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\bin\Debug\net6.0\Hotelier.Api.DtoLayer.dll
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\bin\Debug\net6.0\Hotelier.Api.DtoLayer.pdb
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\bin\Debug\net6.0\Hotelier.Api.EntityLayer.dll
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\bin\Debug\net6.0\Hotelier.Api.EntityLayer.pdb
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.Api.DtoLayer.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.Api.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.Api.DtoLayer.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.Api.DtoLayer.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.Api.DtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.1725BFD8.Up2Date
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.Api.DtoLayer.dll
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\refint\Hotelier.Api.DtoLayer.dll
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.Api.DtoLayer.pdb
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.Api.DtoLayer.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\ref\Hotelier.Api.DtoLayer.dll

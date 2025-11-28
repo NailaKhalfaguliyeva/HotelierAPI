@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "aHLPkgF1VAilXs73U3/Cs4nWDHmPG2R+/UsrTDeb2h8=",
+  "Source": "Hotelier.WebApi",
+  "BasePath": "_content/Hotelier.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
