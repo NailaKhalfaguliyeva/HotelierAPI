@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "GaVjqrLDdLHjwJWD2apzEuQ1vbh/JPezl3xIQwNQ7tQ=",
+  "Source": "HotelierAPI",
+  "BasePath": "_content/HotelierAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

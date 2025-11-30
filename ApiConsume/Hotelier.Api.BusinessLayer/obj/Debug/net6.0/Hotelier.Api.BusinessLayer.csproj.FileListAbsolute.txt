@@ -17,3 +17,4 @@ C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.BusinessLayer\obj
 C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.BusinessLayer\obj\Debug\net6.0\Hotelier.Api.BusinessLayer.pdb
 C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.BusinessLayer\obj\Debug\net6.0\Hotelier.Api.BusinessLayer.genruntimeconfig.cache
 C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.BusinessLayer\obj\Debug\net6.0\ref\Hotelier.Api.BusinessLayer.dll
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.BusinessLayer\obj\Debug\net6.0\Hotelier.Api.BusinessLayer.sourcelink.json

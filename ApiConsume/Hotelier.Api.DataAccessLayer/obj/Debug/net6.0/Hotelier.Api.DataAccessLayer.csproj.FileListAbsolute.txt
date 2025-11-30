@@ -15,3 +15,4 @@ C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\o
 C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\obj\Debug\net6.0\Hotelier.Api.DataAccessLayer.pdb
 C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\obj\Debug\net6.0\Hotelier.Api.DataAccessLayer.genruntimeconfig.cache
 C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\obj\Debug\net6.0\ref\Hotelier.Api.DataAccessLayer.dll
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DataAccessLayer\obj\Debug\net6.0\Hotelier.Api.DataAccessLayer.sourcelink.json
