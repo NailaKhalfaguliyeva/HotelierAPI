@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hotelier.Api.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32c03fe24d6e27bb25b4884ab9c3abffecd4c47b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b37090988dd2ff068f2efe0858ffa01e88468ee3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hotelier.Api.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hotelier.Api.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
