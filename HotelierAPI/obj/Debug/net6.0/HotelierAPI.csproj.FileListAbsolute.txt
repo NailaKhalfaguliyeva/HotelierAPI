@@ -87,3 +87,9 @@ C:\Users\ASUS\source\repos\HotelierApi\HotelierAPI\obj\Debug\net6.0\refint\Hotel
 C:\Users\ASUS\source\repos\HotelierApi\HotelierAPI\obj\Debug\net6.0\HotelierAPI.pdb
 C:\Users\ASUS\source\repos\HotelierApi\HotelierAPI\obj\Debug\net6.0\HotelierAPI.genruntimeconfig.cache
 C:\Users\ASUS\source\repos\HotelierApi\HotelierAPI\obj\Debug\net6.0\ref\HotelierAPI.dll
+C:\Users\ASUS\source\repos\HotelierApi\HotelierAPI\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\ASUS\source\repos\HotelierApi\HotelierAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ASUS\source\repos\HotelierApi\HotelierAPI\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ASUS\source\repos\HotelierApi\HotelierAPI\bin\Debug\net6.0\Microsoft.Bcl.HashCode.dll
+C:\Users\ASUS\source\repos\HotelierApi\HotelierAPI\bin\Debug\net6.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\ASUS\source\repos\HotelierApi\HotelierAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

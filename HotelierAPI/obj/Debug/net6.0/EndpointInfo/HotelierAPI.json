@@ -118,6 +118,47 @@
         }
       }
     },
+    "/api/Room2": {
+      "get": {
+        "tags": [
+          "Room2"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Room2"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RoomAddDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RoomAddDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RoomAddDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Service": {
       "get": {
         "tags": [
@@ -605,6 +646,51 @@
           "bathCount": {
             "type": "string",
             "nullable": true
+          },
+          "wifi": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RoomAddDto": {
+        "required": [
+          "bathCount",
+          "bedCount",
+          "price",
+          "roomNumber",
+          "title"
+        ],
+        "type": "object",
+        "properties": {
+          "roomNumber": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "roomCoverImage": {
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "bedCount": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "bathCount": {
+            "minLength": 1,
+            "type": "string"
           },
           "wifi": {
             "type": "string",

@@ -74,6 +74,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "HotelierAPI.Controllers.Room2Controller",
+    "Method": "Index",
+    "RelativePath": "api/Room2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.Room2Controller",
+    "Method": "AddRoom",
+    "RelativePath": "api/Room2",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roomAddDto",
+        "Type": "Hotelier.Api.DtoLayer.Dtos.RoomDto.RoomAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HotelierAPI.Controllers.ServiceController",
     "Method": "ServiceList",
     "RelativePath": "api/Service",

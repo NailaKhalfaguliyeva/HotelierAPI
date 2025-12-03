@@ -15,3 +15,4 @@ C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debu
 C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.Api.DtoLayer.pdb
 C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.Api.DtoLayer.genruntimeconfig.cache
 C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\ref\Hotelier.Api.DtoLayer.dll
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.Api.DtoLayer.sourcelink.json
