@@ -1,10 +1,11 @@
 ﻿using Hotelier.Api.EntityLayer.Concrete;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 
 namespace Hotelier.Api.DataAccessLayer.Concrete
 {
-   public class Context:DbContext
+   public class Context:IdentityDbContext<AppUser, AppRole, int>
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

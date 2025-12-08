@@ -157,6 +157,35 @@
             "description": "Success"
           }
         }
+      },
+      "put": {
+        "tags": [
+          "Room2"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateRoomDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateRoomDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateRoomDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
       }
     },
     "/api/Service": {
@@ -791,6 +820,58 @@
           "image": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateRoomDto": {
+        "required": [
+          "bathCount",
+          "bedCount",
+          "description",
+          "price",
+          "roomCoverImage",
+          "roomNumber",
+          "title"
+        ],
+        "type": "object",
+        "properties": {
+          "roomID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "roomNumber": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "roomCoverImage": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "price": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "bedCount": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "bathCount": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "wifi": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "minLength": 1,
+            "type": "string"
           }
         },
         "additionalProperties": false

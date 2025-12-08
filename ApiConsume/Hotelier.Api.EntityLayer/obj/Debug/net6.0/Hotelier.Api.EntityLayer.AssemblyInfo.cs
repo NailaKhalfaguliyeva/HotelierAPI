@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hotelier.Api.EntityLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32c03fe24d6e27bb25b4884ab9c3abffecd4c47b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6eab8644c64eecf5a593b839b6892eafa85a24e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hotelier.Api.EntityLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hotelier.Api.EntityLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

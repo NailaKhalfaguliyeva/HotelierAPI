@@ -1,4 +1,5 @@
-﻿using Hotelier.Api.WebUI.Models.TestimonialViewModel;
+﻿using Hotelier.Api.WebUI.Models.Testimonial;
+
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Text;

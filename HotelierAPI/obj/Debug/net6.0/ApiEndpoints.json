@@ -103,7 +103,7 @@
     "ContainingType": "HotelierAPI.Controllers.Room2Controller",
     "Method": "UpdateRoom",
     "RelativePath": "api/Room2",
-    "HttpMethod": "POST",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [

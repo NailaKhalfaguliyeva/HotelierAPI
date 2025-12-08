@@ -1,4 +1,4 @@
-﻿namespace Hotelier.Api.WebUI.Models.TestimonialViewModel
+﻿namespace Hotelier.Api.WebUI.Models.Testimonial
 {
     public class TestimonialViewModel
     {

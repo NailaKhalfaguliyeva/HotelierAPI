@@ -1,10 +1,16 @@
+using Hotelier.Api.DataAccessLayer.Concrete;
+using Hotelier.Api.EntityLayer.Concrete;
+using Hotelier.Api.WebUI.Mapping;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<Context>();
+builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>();
 builder.Services.AddHttpClient();
 
-builder.Services.AddHttpClient();
+builder.Services.AddControllersWithViews();
+builder.Services.AddAutoMapper(typeof(AutoMapperConfig));
 
 var app = builder.Build();
 
@@ -16,7 +22,7 @@ if (!app.Environment.IsDevelopment())
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

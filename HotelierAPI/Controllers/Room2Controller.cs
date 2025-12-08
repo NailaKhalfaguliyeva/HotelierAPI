@@ -38,7 +38,7 @@ namespace HotelierAPI.Controllers
             return Ok();
         }
 
-        [HttpPost]
+        [HttpPut]
         public IActionResult UpdateRoom(UpdateRoomDto updateRoomDto)
         {
             if (!ModelState.IsValid)
