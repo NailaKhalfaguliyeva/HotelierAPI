@@ -5,6 +5,120 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/About": {
+      "get": {
+        "tags": [
+          "About"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "About"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/About"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/About"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/About"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "About"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/About"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/About"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/About"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/About/{id}": {
+      "delete": {
+        "tags": [
+          "About"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "About"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Room": {
       "get": {
         "tags": [
@@ -645,6 +759,40 @@
   },
   "components": {
     "schemas": {
+      "About": {
+        "type": "object",
+        "properties": {
+          "aboutID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title1": {
+            "type": "string",
+            "nullable": true
+          },
+          "title2": {
+            "type": "string",
+            "nullable": true
+          },
+          "content": {
+            "type": "string",
+            "nullable": true
+          },
+          "roomCount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "staffCount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "customerCount": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "Room": {
         "type": "object",
         "properties": {
