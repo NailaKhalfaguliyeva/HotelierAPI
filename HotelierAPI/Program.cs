@@ -3,6 +3,7 @@ using Hotelier.Api.BusinessLayer.Concrete;
 using Hotelier.Api.DataAccessLayer.Abstract;
 using Hotelier.Api.DataAccessLayer.Concrete;
 using Hotelier.Api.DataAccessLayer.EntityFramework;
+using HotelierAPI.Mapping;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,7 +35,10 @@ builder.Services.AddScoped<ITestimonialService, TestimonialManager>();
 builder.Services.AddScoped<IAboutDal, EfAboutDal>();
 builder.Services.AddScoped<IAboutService, AboutManager>();
 
-builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddScoped<IBookingDal, EfBookingDal>();
+builder.Services.AddScoped<IBookingService, BookingManager>();
+
+builder.Services.AddAutoMapper(typeof(AutoMapperConfig));
 
 builder.Services.AddCors(opt =>
 {
@@ -43,9 +47,6 @@ builder.Services.AddCors(opt =>
         opts.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
     });
 });
-
-
-
 
 
 var app = builder.Build();

@@ -1,0 +1,111 @@
+﻿@model CreateBookingDto
+
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title text-center text-primary text-uppercase">Reservation Panel</h6>
+            <h1 class="mb-5">Book <span class="text-primary text-uppercase">Your Room Now.</span></h1>
+        </div>
+        <div class="row g-5">
+            <div class="col-lg-6">
+                <div class="row g-3">
+                    <div class="col-6 text-end">
+                        <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="~/hotel-html-template/img/about-1.jpg" style="margin-top: 25%;">
+                    </div>
+                    <div class="col-6 text-start">
+                        <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="~/hotel-html-template/img/about-2.jpg">
+                    </div>
+                    <div class="col-6 text-end">
+                        <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="~/hotel-html-template/img/about-3.jpg">
+                    </div>
+                    <div class="col-6 text-start">
+                        <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="~/hotel-html-template/img/about-4.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="wow fadeInUp" data-wow-delay="0.2s">
+                    <form method="post" asp-action="AddBooking" asp-controller="Booking">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" asp-for="Name" placeholder="Name Surname" />
+                                    <label for="Name">Name Surname</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" asp-for="EMail" placeholder="Your Email Address" />
+                                    <label for="email">Your Email Address</label>
+                                </div>
+                            </div>
+
+                            <!-- Entry Date -->
+                            <div class="col-md-6">
+                                <div class="form-floating date input-group" id="date3" data-target-input="nearest">
+                                    <input type="text" class="form-control datetimepicker-input" asp-for="Checkin" id="checkin" placeholder="<Entry Date" data-target="#date3" />
+                                    <div class="input-group-append" data-target="#date3" data-toggle="datetimepicker">
+                                        <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                                    </div>
+                                    <label for="checkin"><Entry Date</label>
+                                </div>
+                            </div>
+
+                            <!-- Release Date -->
+                            <div class="col-md-6">
+                                <div class="form-floating date input-group" id="date4" data-target-input="nearest">
+                                    <input type="text" class="form-control datetimepicker-input" asp-for="CheckOut" id="checkout" placeholder="<Release Date" data-target="#date4" />
+                                    <div class="input-group-append" data-target="#date4" data-toggle="datetimepicker">
+                                        <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                                    </div>
+                                    <label for="checkout">Release Date</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <select class="form-select" id="select1" asp-for="AdultCount">
+                                        <option value="1">Adult 1</option>
+                                        <option value="2">Adult 2</option>
+                                        <option value="3">Adult 3</option>
+                                    </select>
+                                    <label for="select1">Adult Count</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <select class="form-select" id="select2" asp-for="ChildCount">
+                                        <option value="1">Child 1</option>
+                                        <option value="2">Child 2</option>
+                                        <option value="3">Child 3</option>
+                                    </select>
+                                    <label for="select2">Child Count</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <select class="form-select" id="select3" asp-for="RoomCount">
+                                        <option value="1">Room 1</option>
+                                        <option value="2">Room 2</option>
+                                        <option value="3">Room 3</option>
+                                    </select>
+                                    <label for="select3">Room Count</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Special Requests" asp-for="SpecialRequest" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Special Requests</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Make a Reservation</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

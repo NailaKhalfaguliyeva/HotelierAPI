@@ -10,6 +10,7 @@ namespace HotelierAPI.Mapping
         {
             CreateMap<RoomAddDto, Room>();
             CreateMap<Room, RoomAddDto>();
+
             CreateMap<UpdateRoomDto, Room>().ReverseMap();
         }
     }
