@@ -3,100 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F965A9B-4303-438D-9BCB-6679040DEA9F}|JwtProject\\WebApiJwt\\WebApiJwt.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\jwtproject\\webapijwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F965A9B-4303-438D-9BCB-6679040DEA9F}|JwtProject\\WebApiJwt\\WebApiJwt.csproj|solutionrelative:jwtproject\\webapijwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DDA6B9C-DC40-4F9C-B078-BBB8BC7BD072}|ApiConsume\\Hotelier.Api.EntityLayer\\Hotelier.Api.EntityLayer.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\apiconsume\\hotelier.api.entitylayer\\concrete\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DDA6B9C-DC40-4F9C-B078-BBB8BC7BD072}|ApiConsume\\Hotelier.Api.EntityLayer\\Hotelier.Api.EntityLayer.csproj|solutionrelative:apiconsume\\hotelier.api.entitylayer\\concrete\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F965A9B-4303-438D-9BCB-6679040DEA9F}|JwtProject\\WebApiJwt\\WebApiJwt.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\jwtproject\\webapijwt\\models\\createtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F965A9B-4303-438D-9BCB-6679040DEA9F}|JwtProject\\WebApiJwt\\WebApiJwt.csproj|solutionrelative:jwtproject\\webapijwt\\models\\createtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\frontend\\hotelier.api.webui\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|solutionrelative:frontend\\hotelier.api.webui\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F965A9B-4303-438D-9BCB-6679040DEA9F}|JwtProject\\WebApiJwt\\WebApiJwt.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\jwtproject\\webapijwt\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F965A9B-4303-438D-9BCB-6679040DEA9F}|JwtProject\\WebApiJwt\\WebApiJwt.csproj|solutionrelative:jwtproject\\webapijwt\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\frontend\\hotelier.api.webui\\views\\shared\\components\\_navbarpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|solutionrelative:frontend\\hotelier.api.webui\\views\\shared\\components\\_navbarpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F965A9B-4303-438D-9BCB-6679040DEA9F}|JwtProject\\WebApiJwt\\WebApiJwt.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\jwtproject\\webapijwt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4F965A9B-4303-438D-9BCB-6679040DEA9F}|JwtProject\\WebApiJwt\\WebApiJwt.csproj|solutionrelative:jwtproject\\webapijwt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\frontend\\hotelier.api.webui\\views\\shared\\components\\_servicepartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|solutionrelative:frontend\\hotelier.api.webui\\views\\shared\\components\\_servicepartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F965A9B-4303-438D-9BCB-6679040DEA9F}|JwtProject\\WebApiJwt\\WebApiJwt.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\jwtproject\\webapijwt\\webapijwt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4F965A9B-4303-438D-9BCB-6679040DEA9F}|JwtProject\\WebApiJwt\\WebApiJwt.csproj|solutionrelative:jwtproject\\webapijwt\\webapijwt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\frontend\\hotelier.api.webui\\views\\shared\\components\\_trailerpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|solutionrelative:frontend\\hotelier.api.webui\\views\\shared\\components\\_trailerpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\rapidapi\\rapidapi.consume\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|solutionrelative:rapidapi\\rapidapi.consume\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\rapidapi\\rapidapi.consume\\controllers\\exchangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|solutionrelative:rapidapi\\rapidapi.consume\\controllers\\exchangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\rapidapi\\rapidapi.consume\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|solutionrelative:rapidapi\\rapidapi.consume\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\rapidapi\\rapidapi.consume\\models\\exchangeviewmodelcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|solutionrelative:rapidapi\\rapidapi.consume\\models\\exchangeviewmodelcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\rapidapi\\rapidapi.consume\\models\\apimovieviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|solutionrelative:rapidapi\\rapidapi.consume\\models\\apimovieviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\rapidapi\\rapidapi.consume\\models\\bookinglocationsearchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|solutionrelative:rapidapi\\rapidapi.consume\\models\\bookinglocationsearchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\rapidapi\\rapidapi.consume\\models\\bookingapiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|solutionrelative:rapidapi\\rapidapi.consume\\models\\bookingapiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\rapidapi\\rapidapi.consume\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|solutionrelative:rapidapi\\rapidapi.consume\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\rapidapi\\rapidapi.consume\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|solutionrelative:rapidapi\\rapidapi.consume\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\rapidapi\\rapidapi.consume\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|solutionrelative:rapidapi\\rapidapi.consume\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\rapidapi\\rapidapi.consume\\views\\bookingbycity\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|solutionrelative:rapidapi\\rapidapi.consume\\views\\bookingbycity\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\rapidapi\\rapidapi.consume\\views\\exhange\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|solutionrelative:rapidapi\\rapidapi.consume\\views\\exhange\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\rapidapi\\rapidapi.consume\\views\\imbd\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|solutionrelative:rapidapi\\rapidapi.consume\\views\\imbd\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\rapidapi\\rapidapi.consume\\views\\searchlocationid\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|solutionrelative:rapidapi\\rapidapi.consume\\views\\searchlocationid\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\rapidapi\\rapidapi.consume\\controllers\\bookingbycitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|solutionrelative:rapidapi\\rapidapi.consume\\controllers\\bookingbycitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\rapidapi\\rapidapi.consume\\controllers\\imbdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|solutionrelative:rapidapi\\rapidapi.consume\\controllers\\imbdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\rapidapi\\rapidapi.consume\\controllers\\searchlocationidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|solutionrelative:rapidapi\\rapidapi.consume\\controllers\\searchlocationidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\rapidapi\\rapidapi.consume\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|solutionrelative:rapidapi\\rapidapi.consume\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\rapidapi\\rapidapi.consume\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E7AFC15-780A-4350-9DAE-1BFCD3C71E15}|RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj|solutionrelative:rapidapi\\rapidapi.consume\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\frontend\\hotelier.api.webui\\views\\shared\\components\\_ourroomspartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|solutionrelative:frontend\\hotelier.api.webui\\views\\shared\\components\\_ourroomspartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,295 +46,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\JwtProject\\WebApiJwt\\appsettings.json",
-              "RelativeDocumentMoniker": "JwtProject\\WebApiJwt\\appsettings.json",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\JwtProject\\WebApiJwt\\appsettings.json",
-              "RelativeToolTip": "JwtProject\\WebApiJwt\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-24T07:56:33.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DefaultController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\JwtProject\\WebApiJwt\\Controllers\\DefaultController.cs",
-              "RelativeDocumentMoniker": "JwtProject\\WebApiJwt\\Controllers\\DefaultController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\JwtProject\\WebApiJwt\\Controllers\\DefaultController.cs",
-              "RelativeToolTip": "JwtProject\\WebApiJwt\\Controllers\\DefaultController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAUwCcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Guest.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\ApiConsume\\Hotelier.Api.EntityLayer\\Concrete\\Guest.cs",
+              "RelativeDocumentMoniker": "ApiConsume\\Hotelier.Api.EntityLayer\\Concrete\\Guest.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\ApiConsume\\Hotelier.Api.EntityLayer\\Concrete\\Guest.cs",
+              "RelativeToolTip": "ApiConsume\\Hotelier.Api.EntityLayer\\Concrete\\Guest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T14:59:40.186Z",
+              "WhenOpened": "2025-12-24T20:28:21.387Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CreateToken.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\JwtProject\\WebApiJwt\\Models\\CreateToken.cs",
-              "RelativeDocumentMoniker": "JwtProject\\WebApiJwt\\Models\\CreateToken.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\JwtProject\\WebApiJwt\\Models\\CreateToken.cs",
-              "RelativeToolTip": "JwtProject\\WebApiJwt\\Models\\CreateToken.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAiwCYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T14:39:49.739Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\Booking\\Index.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\Hotelier.Api.WebUI\\Views\\Booking\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\Booking\\Index.cshtml",
+              "RelativeToolTip": "Frontend\\Hotelier.Api.WebUI\\Views\\Booking\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-24T20:17:39.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\Shared\\Components\\_NavbarPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\Hotelier.Api.WebUI\\Views\\Shared\\Components\\_NavbarPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\Shared\\Components\\_NavbarPartial\\Default.cshtml",
+              "RelativeToolTip": "Frontend\\Hotelier.Api.WebUI\\Views\\Shared\\Components\\_NavbarPartial\\Default.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-24T20:12:32.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\Shared\\Components\\_ServicePartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\Hotelier.Api.WebUI\\Views\\Shared\\Components\\_ServicePartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\Shared\\Components\\_ServicePartial\\Default.cshtml",
+              "RelativeToolTip": "Frontend\\Hotelier.Api.WebUI\\Views\\Shared\\Components\\_ServicePartial\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-24T19:53:23.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "WebApiJwt.csproj",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\JwtProject\\WebApiJwt\\WebApiJwt.csproj",
-              "RelativeDocumentMoniker": "JwtProject\\WebApiJwt\\WebApiJwt.csproj",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\JwtProject\\WebApiJwt\\WebApiJwt.csproj",
-              "RelativeToolTip": "JwtProject\\WebApiJwt\\WebApiJwt.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-21T14:39:11.098Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\JwtProject\\WebApiJwt\\Program.cs",
-              "RelativeDocumentMoniker": "JwtProject\\WebApiJwt\\Program.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\JwtProject\\WebApiJwt\\Program.cs",
-              "RelativeToolTip": "JwtProject\\WebApiJwt\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAmwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T04:56:12.619Z",
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\Shared\\Components\\_TrailerPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\Hotelier.Api.WebUI\\Views\\Shared\\Components\\_TrailerPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\Shared\\Components\\_TrailerPartial\\Default.cshtml",
+              "RelativeToolTip": "Frontend\\Hotelier.Api.WebUI\\Views\\Shared\\Components\\_TrailerPartial\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-24T19:52:30.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Program.cs",
-              "RelativeDocumentMoniker": "RapidAPI\\RapidAPI.Consume\\Program.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Program.cs",
-              "RelativeToolTip": "RapidAPI\\RapidAPI.Consume\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T20:33:02.18Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApiMovieViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Models\\ApiMovieViewModel.cs",
-              "RelativeDocumentMoniker": "RapidAPI\\RapidAPI.Consume\\Models\\ApiMovieViewModel.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Models\\ApiMovieViewModel.cs",
-              "RelativeToolTip": "RapidAPI\\RapidAPI.Consume\\Models\\ApiMovieViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T20:05:24.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "RapidAPI\\RapidAPI.Consume\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "RapidAPI\\RapidAPI.Consume\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T20:05:22.372Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Views\\Booking\\Index.cshtml",
-              "RelativeDocumentMoniker": "RapidAPI\\RapidAPI.Consume\\Views\\Booking\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Views\\Booking\\Index.cshtml",
-              "RelativeToolTip": "RapidAPI\\RapidAPI.Consume\\Views\\Booking\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\Shared\\Components\\_OurRoomsPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\Hotelier.Api.WebUI\\Views\\Shared\\Components\\_OurRoomsPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\Shared\\Components\\_OurRoomsPartial\\Default.cshtml",
+              "RelativeToolTip": "Frontend\\Hotelier.Api.WebUI\\Views\\Shared\\Components\\_OurRoomsPartial\\Default.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-19T20:04:48.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Views\\IMBD\\Index.cshtml",
-              "RelativeDocumentMoniker": "RapidAPI\\RapidAPI.Consume\\Views\\IMBD\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Views\\IMBD\\Index.cshtml",
-              "RelativeToolTip": "RapidAPI\\RapidAPI.Consume\\Views\\IMBD\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-19T20:04:10.478Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Views\\SearchLocationID\\Index.cshtml",
-              "RelativeDocumentMoniker": "RapidAPI\\RapidAPI.Consume\\Views\\SearchLocationID\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Views\\SearchLocationID\\Index.cshtml",
-              "RelativeToolTip": "RapidAPI\\RapidAPI.Consume\\Views\\SearchLocationID\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-19T20:03:49.785Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "RapidAPI\\RapidAPI.Consume\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "RapidAPI\\RapidAPI.Consume\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T20:02:02.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\appsettings.json",
-              "RelativeDocumentMoniker": "RapidAPI\\RapidAPI.Consume\\appsettings.json",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\appsettings.json",
-              "RelativeToolTip": "RapidAPI\\RapidAPI.Consume\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-19T20:01:15.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "RapidAPI\\RapidAPI.Consume\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "RapidAPI\\RapidAPI.Consume\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-19T20:01:12.262Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "SearchLocationIDController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Controllers\\SearchLocationIDController.cs",
-              "RelativeDocumentMoniker": "RapidAPI\\RapidAPI.Consume\\Controllers\\SearchLocationIDController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Controllers\\SearchLocationIDController.cs",
-              "RelativeToolTip": "RapidAPI\\RapidAPI.Consume\\Controllers\\SearchLocationIDController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T19:52:50.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BookingController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Controllers\\BookingController.cs",
-              "RelativeDocumentMoniker": "RapidAPI\\RapidAPI.Consume\\Controllers\\BookingController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Controllers\\BookingController.cs",
-              "RelativeToolTip": "RapidAPI\\RapidAPI.Consume\\Controllers\\BookingController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T19:52:08.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Views\\BookingByCity\\Index.cshtml",
-              "RelativeDocumentMoniker": "RapidAPI\\RapidAPI.Consume\\Views\\BookingByCity\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Views\\BookingByCity\\Index.cshtml",
-              "RelativeToolTip": "RapidAPI\\RapidAPI.Consume\\Views\\BookingByCity\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwCcAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-19T19:47:02.345Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "BookingByCityController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Controllers\\BookingByCityController.cs",
-              "RelativeDocumentMoniker": "RapidAPI\\RapidAPI.Consume\\Controllers\\BookingByCityController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Controllers\\BookingByCityController.cs",
-              "RelativeToolTip": "RapidAPI\\RapidAPI.Consume\\Controllers\\BookingByCityController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T19:29:07.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IMBDController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Controllers\\IMBDController.cs",
-              "RelativeDocumentMoniker": "RapidAPI\\RapidAPI.Consume\\Controllers\\IMBDController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Controllers\\IMBDController.cs",
-              "RelativeToolTip": "RapidAPI\\RapidAPI.Consume\\Controllers\\IMBDController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T17:55:22.84Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BookingLocationSearchViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Models\\BookingLocationSearchViewModel.cs",
-              "RelativeDocumentMoniker": "RapidAPI\\RapidAPI.Consume\\Models\\BookingLocationSearchViewModel.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Models\\BookingLocationSearchViewModel.cs",
-              "RelativeToolTip": "RapidAPI\\RapidAPI.Consume\\Models\\BookingLocationSearchViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T17:48:09.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BookingApiViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Models\\BookingApiViewModel.cs",
-              "RelativeDocumentMoniker": "RapidAPI\\RapidAPI.Consume\\Models\\BookingApiViewModel.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Models\\BookingApiViewModel.cs",
-              "RelativeToolTip": "RapidAPI\\RapidAPI.Consume\\Models\\BookingApiViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T13:53:07.663Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ExchangeViewModelcs.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Models\\ExchangeViewModelcs.cs",
-              "RelativeDocumentMoniker": "RapidAPI\\RapidAPI.Consume\\Models\\ExchangeViewModelcs.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Models\\ExchangeViewModelcs.cs",
-              "RelativeToolTip": "RapidAPI\\RapidAPI.Consume\\Models\\ExchangeViewModelcs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T07:34:26.563Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Views\\Exhange\\Index.cshtml",
-              "RelativeDocumentMoniker": "RapidAPI\\RapidAPI.Consume\\Views\\Exhange\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Views\\Exhange\\Index.cshtml",
-              "RelativeToolTip": "RapidAPI\\RapidAPI.Consume\\Views\\Exhange\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-19T05:02:31.11Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ExchangeController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Controllers\\ExchangeController.cs",
-              "RelativeDocumentMoniker": "RapidAPI\\RapidAPI.Consume\\Controllers\\ExchangeController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\Controllers\\ExchangeController.cs",
-              "RelativeToolTip": "RapidAPI\\RapidAPI.Consume\\Controllers\\ExchangeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T05:01:54.259Z"
+              "WhenOpened": "2025-12-24T19:50:43.026Z",
+              "EditorCaption": ""
             }
           ]
         }

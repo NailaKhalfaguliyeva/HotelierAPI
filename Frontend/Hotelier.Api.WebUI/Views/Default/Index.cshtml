@@ -6,37 +6,37 @@
 <!DOCTYPE html>
 <html lang="en">
 
-@await Component.InvokeAsync("_HeadComponentPartial")
+@await Component.InvokeAsync("_HeadPartial")
 
 <body>
     <div class="container-xxl bg-white p-0">
 
-        @await Component.InvokeAsync("_SpinnerComponentPartial")
+        @await Component.InvokeAsync("_SpinnerPartial")
 
-        @await Component.InvokeAsync("_NavbarComponentPartial")
+        @await Component.InvokeAsync("_NavbarPartial")
 
-        @await Component.InvokeAsync("_SliderComponentPartial")
+        @await Component.InvokeAsync("_SliderPartial")
 
-        @await Component.InvokeAsync("_ReservationComponentPartial")
+@*         @await Component.InvokeAsync("_ReservationPartial")
+ *@
+        @await Component.InvokeAsync("_AboutUsPartial")
 
-        @await Component.InvokeAsync("_AboutUsComponentPartial")
+        @await Component.InvokeAsync("_OurRoomPartial")
 
-        @await Component.InvokeAsync("_OurRoomComponentPartial")
+        @await Component.InvokeAsync("_TrailerPartial")
 
-        @await Component.InvokeAsync("_TrailerComponentPartial")
-
-        @await Component.InvokeAsync("_ServiceComponentPartial")
+        @await Component.InvokeAsync("_ServicePartial")
 
         @await Component.InvokeAsync("_TestimonialComponentPartial")
 
-        @await Component.InvokeAsync("_TeamComponentPartial")
+        @await Component.InvokeAsync("_TeamPartial")
 
         @await Html.PartialAsync("_SubscribePartial")
 
-        @await Component.InvokeAsync("_FooterComponentPartial")
+        @await Component.InvokeAsync("_FooterPartial")
 
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
-    @await Component.InvokeAsync("_ScriptsComponentPartial")
+    @await Component.InvokeAsync("_ScriptsPartial")
 </body>
 </html>
