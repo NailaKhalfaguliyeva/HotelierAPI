@@ -180,6 +180,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "HotelierAPI.Controllers.ContactController",
+    "Method": "AddBooking",
+    "RelativePath": "api/Contact",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contact",
+        "Type": "Hotelier.Api.EntityLayer.Concrete.Contact",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HotelierAPI.Controllers.RoomController",
     "Method": "RoomList",
     "RelativePath": "api/Room",
