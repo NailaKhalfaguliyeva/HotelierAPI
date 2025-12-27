@@ -281,3 +281,7 @@ C:\Users\ASUS\source\repos\HotelierApi\Frontend\Hotelier.Api.WebUI\bin\Debug\net
 C:\Users\ASUS\source\repos\HotelierApi\Frontend\Hotelier.Api.WebUI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\ASUS\source\repos\HotelierApi\Frontend\Hotelier.Api.WebUI\bin\Debug\net6.0\Hotelier.Api.DataAccessLayer.dll
 C:\Users\ASUS\source\repos\HotelierApi\Frontend\Hotelier.Api.WebUI\bin\Debug\net6.0\Hotelier.Api.DataAccessLayer.pdb
+C:\Users\ASUS\source\repos\HotelierApi\Frontend\Hotelier.Api.WebUI\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\ASUS\source\repos\HotelierApi\Frontend\Hotelier.Api.WebUI\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\ASUS\source\repos\HotelierApi\Frontend\Hotelier.Api.WebUI\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\ASUS\source\repos\HotelierApi\Frontend\Hotelier.Api.WebUI\obj\Debug\net6.0\Hotelier.Api.WebUI.MvcApplicationPartsAssemblyInfo.cs

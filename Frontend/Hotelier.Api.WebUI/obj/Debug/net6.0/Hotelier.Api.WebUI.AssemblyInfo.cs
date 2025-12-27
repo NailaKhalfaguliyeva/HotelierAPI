@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hotelier.Api.WebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd057e3cab172f7b3fa6b5bfd7f48ae26a4d1af1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fcbe564bbf930ca3237c1137bf19d48285e3f0c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hotelier.Api.WebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hotelier.Api.WebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
