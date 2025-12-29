@@ -40,7 +40,7 @@ namespace Hotelier.Api.BusinessLayer.Concrete
 
         public void TUpdate(Staff t)
         {
-            _staffDal.Update(t);
+           _staffDal.Update(t);
         }
     }
 }
