@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\frontend\\hotelier.api.webui\\views\\adminemail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|solutionrelative:frontend\\hotelier.api.webui\\views\\adminemail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8296EBB5-B758-44A1-9A0A-221E44AB76DA}|HotelierAPI\\HotelierAPI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\hotelierapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8296EBB5-B758-44A1-9A0A-221E44AB76DA}|HotelierAPI\\HotelierAPI.csproj|solutionrelative:hotelierapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\frontend\\hotelier.api.webui\\models\\email\\adminemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|solutionrelative:frontend\\hotelier.api.webui\\models\\email\\adminemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\frontend\\hotelier.api.webui\\controllers\\adminemailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|solutionrelative:frontend\\hotelier.api.webui\\controllers\\adminemailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\frontend\\hotelier.api.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|solutionrelative:frontend\\hotelier.api.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\frontend\\hotelier.api.webui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,6 +17,42 @@
     {
       "AbsoluteMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\frontend\\hotelier.api.webui\\views\\adminlayout\\sidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|solutionrelative:frontend\\hotelier.api.webui\\views\\adminlayout\\sidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\frontend\\hotelier.api.webui\\views\\adminimagefile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|solutionrelative:frontend\\hotelier.api.webui\\views\\adminimagefile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\frontend\\hotelier.api.webui\\views\\adminfile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|solutionrelative:frontend\\hotelier.api.webui\\views\\adminfile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\frontend\\hotelier.api.webui\\controllers\\adminimagefilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|solutionrelative:frontend\\hotelier.api.webui\\controllers\\adminimagefilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\frontend\\hotelier.api.webui\\controllers\\adminfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|solutionrelative:frontend\\hotelier.api.webui\\controllers\\adminfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8296EBB5-B758-44A1-9A0A-221E44AB76DA}|HotelierAPI\\HotelierAPI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\hotelierapi\\controllers\\fileprocesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8296EBB5-B758-44A1-9A0A-221E44AB76DA}|HotelierAPI\\HotelierAPI.csproj|solutionrelative:hotelierapi\\controllers\\fileprocesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8296EBB5-B758-44A1-9A0A-221E44AB76DA}|HotelierAPI\\HotelierAPI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\hotelierapi\\controllers\\fileimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8296EBB5-B758-44A1-9A0A-221E44AB76DA}|HotelierAPI\\HotelierAPI.csproj|solutionrelative:hotelierapi\\controllers\\fileimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\frontend\\hotelier.api.webui\\views\\admincontact\\sidebaradmincontactpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|solutionrelative:frontend\\hotelier.api.webui\\views\\admincontact\\sidebaradmincontactpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\frontend\\hotelier.api.webui\\controllers\\adminaboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFD3B18-F858-4473-85BE-EF7EDC0181C2}|Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj|solutionrelative:frontend\\hotelier.api.webui\\controllers\\adminaboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8296EBB5-B758-44A1-9A0A-221E44AB76DA}|HotelierAPI\\HotelierAPI.csproj|c:\\users\\asus\\source\\repos\\hotelierapi\\hotelierapi\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8296EBB5-B758-44A1-9A0A-221E44AB76DA}|HotelierAPI\\HotelierAPI.csproj|solutionrelative:hotelierapi\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,21 +62,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 13,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminEmailViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Models\\Email\\AdminEmailViewModel.cs",
-              "RelativeDocumentMoniker": "Frontend\\Hotelier.Api.WebUI\\Models\\Email\\AdminEmailViewModel.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Models\\Email\\AdminEmailViewModel.cs",
-              "RelativeToolTip": "Frontend\\Hotelier.Api.WebUI\\Models\\Email\\AdminEmailViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T20:21:31.551Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
@@ -55,54 +74,171 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Frontend\\Hotelier.Api.WebUI\\Views\\_ViewImports.cshtml",
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "Frontend\\Hotelier.Api.WebUI\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-29T20:22:27.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\AdminEmail\\Index.cshtml",
-              "RelativeDocumentMoniker": "Frontend\\Hotelier.Api.WebUI\\Views\\AdminEmail\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\AdminEmail\\Index.cshtml",
-              "RelativeToolTip": "Frontend\\Hotelier.Api.WebUI\\Views\\AdminEmail\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-29T20:06:59.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminEmailController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Controllers\\AdminEmailController.cs",
-              "RelativeDocumentMoniker": "Frontend\\Hotelier.Api.WebUI\\Controllers\\AdminEmailController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Controllers\\AdminEmailController.cs",
-              "RelativeToolTip": "Frontend\\Hotelier.Api.WebUI\\Controllers\\AdminEmailController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T19:42:13.724Z",
+              "WhenOpened": "2025-12-30T11:49:19.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\AdminImageFile\\Index.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\Hotelier.Api.WebUI\\Views\\AdminImageFile\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\AdminImageFile\\Index.cshtml",
+              "RelativeToolTip": "Frontend\\Hotelier.Api.WebUI\\Views\\AdminImageFile\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-30T11:47:33.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminImageFileController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Controllers\\AdminImageFileController.cs",
+              "RelativeDocumentMoniker": "Frontend\\Hotelier.Api.WebUI\\Controllers\\AdminImageFileController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Controllers\\AdminImageFileController.cs",
+              "RelativeToolTip": "Frontend\\Hotelier.Api.WebUI\\Controllers\\AdminImageFileController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvx4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T11:45:54.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminFileController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Controllers\\AdminFileController.cs",
+              "RelativeDocumentMoniker": "Frontend\\Hotelier.Api.WebUI\\Controllers\\AdminFileController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Controllers\\AdminFileController.cs",
+              "RelativeToolTip": "Frontend\\Hotelier.Api.WebUI\\Controllers\\AdminFileController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvxYAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T11:45:11.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SideBarAdminContactPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\AdminContact\\SideBarAdminContactPartial.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\Hotelier.Api.WebUI\\Views\\AdminContact\\SideBarAdminContactPartial.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\AdminContact\\SideBarAdminContactPartial.cshtml",
+              "RelativeToolTip": "Frontend\\Hotelier.Api.WebUI\\Views\\AdminContact\\SideBarAdminContactPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-30T11:22:30.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\AdminFile\\Index.cshtml",
+              "RelativeDocumentMoniker": "Frontend\\Hotelier.Api.WebUI\\Views\\AdminFile\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\AdminFile\\Index.cshtml",
+              "RelativeToolTip": "Frontend\\Hotelier.Api.WebUI\\Views\\AdminFile\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-30T11:15:01.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FileProcessController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\HotelierAPI\\Controllers\\FileProcessController.cs",
+              "RelativeDocumentMoniker": "HotelierAPI\\Controllers\\FileProcessController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\HotelierAPI\\Controllers\\FileProcessController.cs",
+              "RelativeToolTip": "HotelierAPI\\Controllers\\FileProcessController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T09:52:52.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SidebarPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\AdminLayout\\SidebarPartial.cshtml",
               "RelativeDocumentMoniker": "Frontend\\Hotelier.Api.WebUI\\Views\\AdminLayout\\SidebarPartial.cshtml",
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Views\\AdminLayout\\SidebarPartial.cshtml",
               "RelativeToolTip": "Frontend\\Hotelier.Api.WebUI\\Views\\AdminLayout\\SidebarPartial.cshtml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAADAAAABeAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-29T19:37:46.027Z",
+              "WhenOpened": "2025-12-30T09:46:07.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminAboutController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Controllers\\AdminAboutController.cs",
+              "RelativeDocumentMoniker": "Frontend\\Hotelier.Api.WebUI\\Controllers\\AdminAboutController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Controllers\\AdminAboutController.cs",
+              "RelativeToolTip": "Frontend\\Hotelier.Api.WebUI\\Controllers\\AdminAboutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T08:50:30.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\HotelierAPI\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "HotelierAPI\\Controllers\\AboutController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\HotelierAPI\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "HotelierAPI\\Controllers\\AboutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T08:50:25.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "Frontend\\Hotelier.Api.WebUI\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\Frontend\\Hotelier.Api.WebUI\\Program.cs",
+              "RelativeToolTip": "Frontend\\Hotelier.Api.WebUI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T08:36:28.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\HotelierAPI\\Program.cs",
+              "RelativeDocumentMoniker": "HotelierAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\HotelierAPI\\Program.cs",
+              "RelativeToolTip": "HotelierAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T08:36:19.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FileImageController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\HotelierAPI\\Controllers\\FileImageController.cs",
+              "RelativeDocumentMoniker": "HotelierAPI\\Controllers\\FileImageController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\HotelierAPI\\Controllers\\FileImageController.cs",
+              "RelativeToolTip": "HotelierAPI\\Controllers\\FileImageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T08:00:06.676Z",
               "EditorCaption": ""
             }
           ]

@@ -181,7 +181,7 @@
   },
   {
     "ContainingType": "HotelierAPI.Controllers.ContactController",
-    "Method": "AddBooking",
+    "Method": "AddContact",
     "RelativePath": "api/Contact",
     "HttpMethod": "POST",
     "IsController": true,
@@ -190,6 +190,147 @@
       {
         "Name": "contact",
         "Type": "Hotelier.Api.EntityLayer.Concrete.Contact",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.ContactController",
+    "Method": "InboxListContact",
+    "RelativePath": "api/Contact",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.ContactController",
+    "Method": "GetSendMessage",
+    "RelativePath": "api/Contact/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.FileImageController",
+    "Method": "UploadImage",
+    "RelativePath": "api/FileImage/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.GuestController",
+    "Method": "RoomList",
+    "RelativePath": "api/Guest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.GuestController",
+    "Method": "AddGuest",
+    "RelativePath": "api/Guest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "guest",
+        "Type": "Hotelier.Api.EntityLayer.Concrete.Guest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.GuestController",
+    "Method": "UpdateGuest",
+    "RelativePath": "api/Guest",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "guest",
+        "Type": "Hotelier.Api.EntityLayer.Concrete.Guest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.GuestController",
+    "Method": "DeleteGuest",
+    "RelativePath": "api/Guest/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.GuestController",
+    "Method": "GetGuest",
+    "RelativePath": "api/Guest/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -306,6 +447,80 @@
       {
         "Name": "updateRoomDto",
         "Type": "Hotelier.Api.DtoLayer.Dtos.RoomDto.UpdateRoomDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.SendMessageController",
+    "Method": "SendMessageList",
+    "RelativePath": "api/SendMessage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.SendMessageController",
+    "Method": "AddSendMessage",
+    "RelativePath": "api/SendMessage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sendMessage",
+        "Type": "Hotelier.Api.EntityLayer.Concrete.SendMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.SendMessageController",
+    "Method": "UpdateSendMessage",
+    "RelativePath": "api/SendMessage",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sendMessage",
+        "Type": "Hotelier.Api.EntityLayer.Concrete.SendMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.SendMessageController",
+    "Method": "DeleteSendMessage",
+    "RelativePath": "api/SendMessage/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.SendMessageController",
+    "Method": "GetSendMessage",
+    "RelativePath": "api/SendMessage/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
