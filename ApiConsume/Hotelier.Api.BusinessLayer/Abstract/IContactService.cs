@@ -4,5 +4,6 @@ namespace Hotelier.Api.BusinessLayer.Abstract
 {
     public interface IContactService : IGenericService<Contact>
     {
+        public int TGetContactCount();
     }
 }

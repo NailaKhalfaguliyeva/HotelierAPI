@@ -9,7 +9,7 @@ namespace WebApiJwt.Models
     {
         public string TokenCreate()
         {
-            var bytes = Encoding.UTF8.GetBytes("aspnetcoreapiapi");
+            var bytes = Encoding.UTF8.GetBytes("aspnetcoreapiapi_very_secure_secret_key_123!");
             SymmetricSecurityKey key = new SymmetricSecurityKey(bytes);
             SigningCredentials credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
             JwtSecurityToken token = new JwtSecurityToken(issuer: "http//localhost", audience: "http://localhost", notBefore: DateTime.Now, expires: DateTime.Now.AddSeconds(20), signingCredentials: credentials);
@@ -20,7 +20,7 @@ namespace WebApiJwt.Models
 
         public string TokenCreateAdmin()
         {
-            var bytes = Encoding.UTF8.GetBytes("aspnetcoreapiapi");
+            var bytes = Encoding.UTF8.GetBytes("aspnetcoreapiapi_very_secure_secret_key_123!");
             SymmetricSecurityKey key = new SymmetricSecurityKey(bytes);
             SigningCredentials credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
             List<Claim> claims = new List<Claim>()

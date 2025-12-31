@@ -1,8 +1,18 @@
 [
   {
     "ContainingType": "WebApiJwt.Controllers.DefaultController",
-    "Method": "Test",
-    "RelativePath": "api/Default/Test",
+    "Method": "AdminCreateToken",
+    "RelativePath": "api/Default/AdminCreateToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiJwt.Controllers.DefaultController",
+    "Method": "CreateToken",
+    "RelativePath": "api/Default/CreateToken",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -13,6 +23,16 @@
     "ContainingType": "WebApiJwt.Controllers.DefaultController",
     "Method": "Test2",
     "RelativePath": "api/Default/Test2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiJwt.Controllers.DefaultController",
+    "Method": "Test3",
+    "RelativePath": "api/Default/Test3",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

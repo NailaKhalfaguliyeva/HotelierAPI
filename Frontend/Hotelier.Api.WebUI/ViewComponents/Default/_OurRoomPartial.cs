@@ -4,11 +4,11 @@ using Newtonsoft.Json;
 
 namespace Hotelier.Api.WebUI.ViewComponents.Default
 {
-    public class _OurRoomsPartial : ViewComponent
+    public class _OurRoomPartial : ViewComponent
     {
         private readonly IHttpClientFactory _httpClientFactory;
 
-        public _OurRoomsPartial(IHttpClientFactory httpClientFactory)
+        public _OurRoomPartial(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory;
         }

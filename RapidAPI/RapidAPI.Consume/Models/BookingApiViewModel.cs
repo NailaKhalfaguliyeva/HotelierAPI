@@ -2,7 +2,7 @@
 {
     public class BookingApiViewModel
     {
-        public Result[] results { get; set; }
+        public Result[] result { get; set; }
         public class Result
         {
             public int soldout { get; set; }
@@ -53,7 +53,7 @@
             public string address { get; set; }
             public string urgency_room_msg { get; set; }
             public object updated_checkout { get; set; }
-            public int native_ads_cpc { get; set; }
+            public decimal native_ads_cpc { get; set; }
             public int ufi { get; set; }
             public int preferred { get; set; }
             public string cc1 { get; set; }
