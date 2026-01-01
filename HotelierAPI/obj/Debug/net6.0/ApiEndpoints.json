@@ -388,6 +388,80 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "HotelierAPI.Controllers.MessageCategoryController",
+    "Method": "MessageCategoryList",
+    "RelativePath": "api/MessageCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.MessageCategoryController",
+    "Method": "AddMessageCategory",
+    "RelativePath": "api/MessageCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "messageCategory",
+        "Type": "Hotelier.Api.EntityLayer.Concrete.MessageCategory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.MessageCategoryController",
+    "Method": "UpdateMessageCategory",
+    "RelativePath": "api/MessageCategory",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "messageCategory",
+        "Type": "Hotelier.Api.EntityLayer.Concrete.MessageCategory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.MessageCategoryController",
+    "Method": "DeleteMessageCategory",
+    "RelativePath": "api/MessageCategory/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.MessageCategoryController",
+    "Method": "GetMessageCategory",
+    "RelativePath": "api/MessageCategory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HotelierAPI.Controllers.RoomController",
     "Method": "RoomList",
     "RelativePath": "api/Room",
