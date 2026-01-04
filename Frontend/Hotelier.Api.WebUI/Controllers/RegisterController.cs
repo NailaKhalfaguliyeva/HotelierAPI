@@ -33,7 +33,8 @@ namespace Hotelier.Api.WebUI.Controllers
                 Name = createNewUserDto.Name,
                 Surname = createNewUserDto.Surname,
                 UserName = createNewUserDto.UserName,
-                Email = createNewUserDto.Email
+                Email = createNewUserDto.Email,
+                WorkLocationID = 1
             };
             var result = await _userManager.CreateAsync(appUser, createNewUserDto.Password);
             if (result.Succeeded)

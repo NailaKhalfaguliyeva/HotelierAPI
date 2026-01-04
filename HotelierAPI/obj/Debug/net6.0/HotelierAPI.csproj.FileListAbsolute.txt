@@ -109,3 +109,7 @@ C:\Users\ASUS\source\repos\HotelierApi\HotelierAPI\bin\Debug\net6.0\System.Secur
 C:\Users\ASUS\source\repos\HotelierApi\HotelierAPI\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\ASUS\source\repos\HotelierApi\HotelierAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\ASUS\source\repos\HotelierApi\HotelierAPI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\ASUS\source\repos\HotelierApi\HotelierAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ASUS\source\repos\HotelierApi\HotelierAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\ASUS\source\repos\HotelierApi\HotelierAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ASUS\source\repos\HotelierApi\HotelierAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

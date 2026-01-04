@@ -74,6 +74,26 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "HotelierAPI.Controllers.AppUserController",
+    "Method": "AppUserList",
+    "RelativePath": "api/AppUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.AppUserWorkLocationController",
+    "Method": "Index",
+    "RelativePath": "api/AppUserWorkLocation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HotelierAPI.Controllers.BookingController",
     "Method": "BookingList",
     "RelativePath": "api/Booking",
@@ -945,6 +965,80 @@
     "ContainingType": "HotelierAPI.Controllers.TestimonialController",
     "Method": "GetTestimonial",
     "RelativePath": "api/Testimonial/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.WorkLocationController",
+    "Method": "WorkLocationList",
+    "RelativePath": "api/WorkLocation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.WorkLocationController",
+    "Method": "AddWorkLocation",
+    "RelativePath": "api/WorkLocation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workLocation",
+        "Type": "Hotelier.Api.EntityLayer.Concrete.WorkLocation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.WorkLocationController",
+    "Method": "UpdateWorkLocation",
+    "RelativePath": "api/WorkLocation",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workLocation",
+        "Type": "Hotelier.Api.EntityLayer.Concrete.WorkLocation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.WorkLocationController",
+    "Method": "DeleteWorkLocation",
+    "RelativePath": "api/WorkLocation/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.WorkLocationController",
+    "Method": "GetWorkLocation",
+    "RelativePath": "api/WorkLocation/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
