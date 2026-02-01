@@ -4292,6 +4292,22 @@
         "runtime": {
           "bin/placeholder/Hotelier.Api.EntityLayer.dll": {}
         }
+      },
+      "RapidAPI.Consume/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.18"
+        },
+        "compile": {
+          "bin/placeholder/RapidAPI.Consume.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RapidAPI.Consume.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -11688,6 +11704,11 @@
       "type": "project",
       "path": "../../ApiConsume/Hotelier.Api.EntityLayer/Hotelier.Api.EntityLayer.csproj",
       "msbuildProject": "../../ApiConsume/Hotelier.Api.EntityLayer/Hotelier.Api.EntityLayer.csproj"
+    },
+    "RapidAPI.Consume/1.0.0": {
+      "type": "project",
+      "path": "../../RapidAPI/RapidAPI.Consume/RapidAPI.Consume.csproj",
+      "msbuildProject": "../../RapidAPI/RapidAPI.Consume/RapidAPI.Consume.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11706,7 +11727,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.36",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.36",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.18",
-      "NETCore.MailKit >= 2.1.0"
+      "NETCore.MailKit >= 2.1.0",
+      "RapidAPI.Consume >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11746,6 +11768,9 @@
             },
             "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\ApiConsume\\Hotelier.Api.EntityLayer\\Hotelier.Api.EntityLayer.csproj": {
               "projectPath": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\ApiConsume\\Hotelier.Api.EntityLayer\\Hotelier.Api.EntityLayer.csproj"
+            },
+            "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\source\\repos\\HotelierApi\\RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj"
             }
           }
         }

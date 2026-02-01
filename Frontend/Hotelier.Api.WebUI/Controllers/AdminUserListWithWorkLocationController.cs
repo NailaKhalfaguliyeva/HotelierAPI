@@ -13,10 +13,7 @@ namespace Hotelier.Api.WebUI.Controllers
             _httpClientFactory = httpClientFactory;
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
+
 
         public async Task<IActionResult> UserList()
         {

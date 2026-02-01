@@ -9,7 +9,9 @@
         <th>#</th>
         <th>Title1</th>
         <th>Title2</th>
+        <th>Details</th>
         <th>Update</th>
+        <th>Delete</th>
     </tr>
     @foreach (var item in Model)
     {
@@ -17,7 +19,11 @@
             <th>@item.AboutID</th>
             <td>@item.Title1</td>
             <td>@item.Title2</td>
+            <td><a href="/AdminAbout/DetailsAbout/@item.AboutID"class="btn mb-1 btn-rounded btn-outline-info">Details</a></td>
             <td><a href="/AdminAbout/UpdateAbout/@item.AboutID" class="btn mb-1 btn-rounded btn-outline-success">Update</a></td>
+            <td><a href="/AdminAbout/DeleteAbout/@item.AboutID"class="btn mb-1 btn-rounded btn-outline-danger">Delete</a></td>
         </tr>
     }
 </table>
+
+<a href="/AdminAbout/AddAbout/" class="btn mb-1 btn-rounded btn-outline-primary">New About</a>

@@ -85,6 +85,25 @@ namespace Hotelier.Api.WebUI.Controllers
             return View();
         }
 
+        [HttpGet]
+        public async Task<IActionResult> DetailsStaff(int id)
+        {
+            var client = _httpClientFactory.CreateClient();
+
+            var responseMessage = await client.GetAsync($"http://localhost:5221/api/Staff/{id}");
+
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                var jsonData = await responseMessage.Content.ReadAsStringAsync();
+
+                var value = JsonConvert.DeserializeObject<UpdateStaffViewModel>(jsonData);
+
+                return View(value);
+            }
+
+            return RedirectToAction("Index");
+        }
+
 
     }
 }

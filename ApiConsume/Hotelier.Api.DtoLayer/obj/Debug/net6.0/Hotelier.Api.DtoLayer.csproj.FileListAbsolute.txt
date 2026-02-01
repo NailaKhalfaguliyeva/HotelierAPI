@@ -9,10 +9,10 @@ C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debu
 C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.Api.DtoLayer.AssemblyInfoInputs.cache
 C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.Api.DtoLayer.AssemblyInfo.cs
 C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.Api.DtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.Api.DtoLayer.sourcelink.json
 C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.1725BFD8.Up2Date
 C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.Api.DtoLayer.dll
 C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\refint\Hotelier.Api.DtoLayer.dll
 C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.Api.DtoLayer.pdb
 C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.Api.DtoLayer.genruntimeconfig.cache
 C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\ref\Hotelier.Api.DtoLayer.dll
-C:\Users\ASUS\source\repos\HotelierApi\ApiConsume\Hotelier.Api.DtoLayer\obj\Debug\net6.0\Hotelier.Api.DtoLayer.sourcelink.json

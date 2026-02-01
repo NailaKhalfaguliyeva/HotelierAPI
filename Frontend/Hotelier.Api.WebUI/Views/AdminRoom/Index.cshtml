@@ -12,8 +12,9 @@
         <th>#</th>
         <th>Room Number</th>
         <th>Title</th>
-        <th>Delete</th>
+        <th>Details</th>
         <th>Update</th>
+        <th>Delete</th>
     </tr>
     @foreach (var item in Model)
     {
@@ -22,9 +23,12 @@
             <th>@count</th>
             <td>@item.RoomNumber</td>
             <td>@item.Title</td>
-            <td><a href="/AdminRoom/DeleteRoom/@item.RoomID" class="btn mb-1 btn-rounded btn-outline-danger">Delete</a></td>
+            <td><a href="/AdminRoom/DetailsRoom/@item.RoomID" class="btn mb-1 btn-rounded btn-outline-info">Details</a></td>
             <td><a href="/AdminRoom/UpdateRoom/@item.RoomID" class="btn mb-1 btn-rounded btn-outline-success">Update</a></td>
+            <td><a href="/AdminRoom/DeleteRoom/@item.RoomID" class="btn mb-1 btn-rounded btn-outline-danger">Delete</a></td>
+  
         </tr>
     }
 </table>
-<a href="/AdminRoom/AddRoom/" class="btn mb-1 btn-rounded btn-outline-info"></a>
+
+<a href="/AdminRoom/AddRoom/" class="btn mb-1 btn-rounded btn-outline-primary">Add New Room</a>

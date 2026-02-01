@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Hotelier.Api.DtoLayer.Dtos.RoomDto
 {
@@ -23,6 +20,7 @@ namespace Hotelier.Api.DtoLayer.Dtos.RoomDto
         public string BedCount { get; set; }
         [Required(ErrorMessage = "Please write the bath count")]
         public string BathCount { get; set; }
+        [Required(ErrorMessage = "Please Enter the Wifi Number")]
         public string Wifi { get; set; }
         [Required(ErrorMessage = "Please write the description")]
         public string Description { get; set; }

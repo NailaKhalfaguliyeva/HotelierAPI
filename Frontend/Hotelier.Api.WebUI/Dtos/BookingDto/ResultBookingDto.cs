@@ -4,7 +4,7 @@
     {
         public int BookingID { get; set; }
         public string Name { get; set; }
-        public string EMail { get; set; }
+        public string Email { get; set; }
         public DateTime Checkin { get; set; }
         public DateTime CheckOut { get; set; }
         public string AdultCount { get; set; }

@@ -31,6 +31,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\ApiConsume\Hotelier.Api.DataAccessLayer\Hotelier.Api.DataAccessLayer.csproj" />
     <ProjectReference Include="..\..\ApiConsume\Hotelier.Api.EntityLayer\Hotelier.Api.EntityLayer.csproj" />
+    <ProjectReference Include="..\..\RapidAPI\RapidAPI.Consume\RapidAPI.Consume.csproj" />
   </ItemGroup>
 
   <ItemGroup>

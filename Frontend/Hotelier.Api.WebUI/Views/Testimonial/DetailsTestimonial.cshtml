@@ -1,0 +1,20 @@
+﻿@model TestimonialViewModel
+@{
+    ViewData["Title"] = "DetailsTestimonial";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Testimonial Details</h4>
+        <hr />
+
+        <p><b>ID:</b> @Model.TestimonialID</p>
+        <p><b>Name:</b> @Model.Name</p>
+        <p><b>Title:</b> @Model.Title</p>
+        <p><b>Description:</b> @Model.Description</p>
+        <p><b>Image:</b> @Model.Image</p>
+
+        <a href="/Testimonial/Index" class="btn btn-outline-secondary mt-3">Back</a>
+    </div>
+</div>

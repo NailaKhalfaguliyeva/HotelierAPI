@@ -1,7 +1,7 @@
 ﻿using Hotelier.Api.BusinessLayer.Abstract;
 using Hotelier.Api.DataAccessLayer.Concrete;
 using HotelierAPI.Models;
-using Microsoft.AspNetCore.Http;
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -21,7 +21,7 @@ namespace HotelierAPI.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            //var values = _appUserService.TUsersListWithWorkLocations();
+
             Context context = new Context();
             var values = context.Users.Include(x => x.WorkLocation).Select(y => new AppUserWorkLocationViewModel
             {
@@ -32,7 +32,7 @@ namespace HotelierAPI.Controllers
                 City = y.City,
                 Country = y.Country,
                 Gender = y.Gender,
-                ImageURL = y.ImageUrl
+                ImageUrl = y.ImageUrl
             }).ToList();
             return Ok(values);
         }

@@ -1,0 +1,49 @@
+﻿@model UpdateBookingDto
+
+@{
+    ViewData["Title"] = "UpdateBooking";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<h1>Reservation Update Page</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="BookingID" />
+    <label>Guest Name and Surname</label>
+    <input type="text" asp-for="Name" class="form-control" />
+    <br />
+    <label>Guest Email Address</label>
+    <input type="email" asp-for="Email" class="form-control" />
+    <br />
+    <label>Guest Arrival Date</label>
+    <input type="date" asp-for="Checkin" class="form-control" />
+    <br />
+    <label>Guest Departure Date</label>
+    <input type="date" asp-for="CheckOut" class="form-control" />
+    <br />
+    <label>Number of Adults</label>
+    <input type="number" asp-for="AdultCount" class="form-control" />
+    <br />
+    <label>Number of Children</label>
+    <input type="number" asp-for="ChildCount" class="form-control" />
+    <br />
+    <label>Number of Rooms</label>
+    <input type="number" asp-for="RoomCount" class="form-control" />
+    <br />
+    <label>City</label>
+    <input type="text" asp-for="City" class="form-control" />
+    <br />
+    <label>Country</label>
+    <input type="text" asp-for="Country" class="form-control" />
+    <br />
+    <label>Situation</label>
+    <input type="text" asp-for="Status" class="form-control" />
+    <br />
+    <label>Special Requests</label>
+    <textarea class="form-control" rows="5" asp-for="SpecialRequest"></textarea>
+    <br />
+    <label>Description</label>
+    <textarea class="form-control" rows="5" asp-for="Description"></textarea>
+    <br />
+    <button class="btn btn-primary">Update Reservation</button>
+</form>

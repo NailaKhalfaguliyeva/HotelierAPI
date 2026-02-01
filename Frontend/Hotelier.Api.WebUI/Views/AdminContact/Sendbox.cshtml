@@ -6,9 +6,9 @@
 
 <div class="email-left-box">
     <a href="/AdminContact/AddSendMessage/" class="btn btn-primary btn-block">Create New Message</a>
-    @await Component.InvokeAsync("SideBarAdminContactPartial")
+    @await Html.PartialAsync("SideBarAdminContactPartial")
     <h5 class="mt-5 m-b-10">Categories</h5>
-    @await Component.InvokeAsync("SideBarAdminContactCategoryPartial")
+@*     @await Html.PartialAsync("SideBarAdminContactCategoryPartial") *@
 </div>
 <div class="email-right-box">
     <div role="toolbar" class="toolbar">

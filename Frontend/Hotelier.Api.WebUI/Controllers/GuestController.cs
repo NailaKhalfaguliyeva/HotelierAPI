@@ -1,5 +1,5 @@
 ﻿using Hotelier.Api.WebUI.Dtos.GuestDto;
-using Hotelier.Api.WebUI.Models.Staff;
+
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Text;
@@ -39,31 +39,27 @@ namespace Hotelier.Api.WebUI.Controllers
         {
             if (!ModelState.IsValid)
             {
-                var client = _httpClientFactory.CreateClient();
-                var jsonData = JsonConvert.SerializeObject(createGuestDto);
-                StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
-                var responseMessage = await client.PostAsync("http://localhost:5221/api/Guest", stringContent);
-                if (responseMessage.IsSuccessStatusCode)
-                {
-                    return RedirectToAction("Index");
-                }
-                return View();
+                return View(createGuestDto);
             }
-            else
-            {
-                return View();
-            }
-        }
-        public async Task<IActionResult> DeleteGuest(int id)
-        {
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.DeleteAsync($"http://localhost:5221/api/Guest/{id}");
+            var jsonData = JsonConvert.SerializeObject(createGuestDto);
+            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PostAsync("http://localhost:5221/api/Guest", stringContent);
             if (responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
             }
-            return View();
+            return View(createGuestDto);
         }
+
+        public async Task<IActionResult> DeleteGuest(int id)
+        {
+            var client = _httpClientFactory.CreateClient();
+            await client.DeleteAsync($"http://localhost:5221/api/Guest/{id}");
+            
+                return RedirectToAction("Index");
+            }
+
 
         [HttpGet]
         public async Task<IActionResult> UpdateGuest(int id)
@@ -76,7 +72,7 @@ namespace Hotelier.Api.WebUI.Controllers
                 var values = JsonConvert.DeserializeObject<UpdateGuestDto>(jsonData);
                 return View(values);
             }
-            return View();
+            return RedirectToAction("Index");
         }
 
         [HttpPost]
@@ -84,19 +80,23 @@ namespace Hotelier.Api.WebUI.Controllers
         {
             if (!ModelState.IsValid)
             {
-                var client = _httpClientFactory.CreateClient();
-                var jsonData = JsonConvert.SerializeObject(updateGuestDto);
-                StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
-                var responseMessage = await client.PutAsync("http://localhost:5221/api/Guest", stringContent);
-                if (responseMessage.IsSuccessStatusCode)
-                {
-                    return RedirectToAction("Index");
-                }
-                return View();
+                return View(updateGuestDto);
             }
-            
-                return View();
+            var client = _httpClientFactory.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(updateGuestDto);
+            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PutAsync("http://localhost:5221/api/Guest", stringContent);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+       
             }
 
+
+            return View(updateGuestDto);
+ 
         }
+  
+    
     }
+}

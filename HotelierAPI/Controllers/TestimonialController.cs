@@ -1,6 +1,6 @@
 ﻿using Hotelier.Api.BusinessLayer.Abstract;
 using Hotelier.Api.EntityLayer.Concrete;
-using Microsoft.AspNetCore.Http;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotelierAPI.Controllers
@@ -27,7 +27,7 @@ namespace HotelierAPI.Controllers
             _testimonialService.TInsert(testimonial);
             return Ok();
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteTestimonial(int id)
         {
             var values = _testimonialService.TGetByID(id);

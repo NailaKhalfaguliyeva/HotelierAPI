@@ -20,12 +20,12 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 6.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/ASUS/source/repos/HotelierApi/RapidAPI/RapidAPI.Consume/Views/BookingByCity/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0J5Q2l0eVxJbmRleC5jc2h0bWw=
+[C:/Users/ASUS/source/repos/HotelierApi/RapidAPI/RapidAPI.Consume/Views/BookingAPIByCity/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0FQSUJ5Q2l0eVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/HotelierApi/RapidAPI/RapidAPI.Consume/Views/Booking/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xJbmRleC5jc2h0bWw=
+[C:/Users/ASUS/source/repos/HotelierApi/RapidAPI/RapidAPI.Consume/Views/BookingAPI/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0FQSVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ASUS/source/repos/HotelierApi/RapidAPI/RapidAPI.Consume/Views/Exhange/Index.cshtml]

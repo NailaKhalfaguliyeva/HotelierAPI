@@ -1,0 +1,29 @@
+﻿@model TestimonialViewModel
+@{
+    ViewData["Title"] = "AddTestimonial";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<h4>Add Testimonial</h4>
+<br />
+
+<form method="post">
+    <label>Name</label>
+    <input type="text" asp-for="Name" class="form-control" />
+    <br />
+
+    <label>Title</label>
+    <input type="text" asp-for="Title" class="form-control" />
+    <br />
+
+    <label>Description</label>
+    <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+    <br />
+
+    <label>Image Url</label>
+    <input type="text" asp-for="Image" class="form-control" />
+    <br />
+
+    <button class="btn btn-outline-primary">Save</button>
+    <a href="/Testimonial/Index" class="btn btn-outline-secondary">Back</a>
+</form>

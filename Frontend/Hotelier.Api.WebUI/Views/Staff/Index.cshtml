@@ -9,6 +9,7 @@
         <th>#</th>
         <th>Staff Name</th>
         <th>Staff Address</th>
+        <th>ImageUrl</th>
         <th>Delete</th>
         <th>Update</th>
         <th>Details</th>
@@ -19,9 +20,13 @@
             <th>@item.StaffID</th>
             <td>@item.Name</td>
             <td>@item.Title</td>
+            <td>
+                <img src="@item.ImageUrl"
+                     style="width:60px;height:60px;object-fit:cover;border-radius:50%;" />
+            </td>
             <td><a href="/Staff/DeleteStaff/@item.StaffID" class="btn mb-1 btn-rounded btn-outline-danger">Delete</a></td>
             <td><a href="/Staff/UpdateStaff/@item.StaffID" class="btn mb-1 btn-rounded btn-outline-success">Update</a></td>
-            <td><a href="#" class="btn mb-1 btn-rounded btn-outline-dark">Details</a></td>
+            <td><a href="/Staff/DetailsStaff/@item.StaffID" class="btn mb-1 btn-rounded btn-outline-dark">Details</a></td>
         </tr>
     }
 </table>

@@ -1,0 +1,24 @@
+﻿@model UpdateStaffViewModel
+@{
+    ViewData["Title"] = "Staff Details";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Staff Details</h4>
+        <hr />
+
+        <p><b>ID:</b> @Model.StaffID</p>
+        <p><b>Name:</b> @Model.Name</p>
+        <p><b>Title:</b> @Model.Title</p>
+
+        <hr />
+
+        <p><b>Social Media 1:</b> @Model.SocialMedia1</p>
+        <p><b>Social Media 2:</b> @Model.SocialMedia2</p>
+        <p><b>Social Media 3:</b> @Model.SocialMedia3</p>
+        <p><b>Image:</b> @Model.ImageUrl</p>
+        <a href="/Staff/Index" class="btn btn-outline-secondary mt-3">Back</a>
+    </div>
+</div>

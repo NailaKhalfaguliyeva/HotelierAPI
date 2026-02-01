@@ -59,7 +59,7 @@
   },
   {
     "ContainingType": "HotelierAPI.Controllers.AboutController",
-    "Method": "GetAboutById",
+    "Method": "GetAboutId",
     "RelativePath": "api/About/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -137,7 +137,7 @@
   },
   {
     "ContainingType": "HotelierAPI.Controllers.BookingController",
-    "Method": "GetBooking",
+    "Method": "GetBookingById",
     "RelativePath": "api/Booking/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -153,24 +153,24 @@
   },
   {
     "ContainingType": "HotelierAPI.Controllers.BookingController",
-    "Method": "aaaaa",
-    "RelativePath": "api/Booking/aaaaa",
+    "Method": "BookingAproved",
+    "RelativePath": "api/Booking/BookingAproved",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "booking",
-        "Type": "Hotelier.Api.EntityLayer.Concrete.Booking",
-        "IsRequired": true
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "HotelierAPI.Controllers.BookingController",
-    "Method": "bbbb",
-    "RelativePath": "api/Booking/bbbb",
+    "Method": "BookingCancel",
+    "RelativePath": "api/Booking/BookingCancel",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -181,6 +181,32 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.BookingController",
+    "Method": "BookingWait",
+    "RelativePath": "api/Booking/BookingWait",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.BookingController",
+    "Method": "Last6Booking",
+    "RelativePath": "api/Booking/Last6Booking",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -208,8 +234,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "contact",
-        "Type": "Hotelier.Api.EntityLayer.Concrete.Contact",
+        "Name": "createContactDto",
+        "Type": "Hotelier.Api.DtoLayer.Dtos.ContactDto.CreateContactDto",
         "IsRequired": true
       }
     ],
@@ -245,6 +271,46 @@
     "ContainingType": "HotelierAPI.Controllers.ContactController",
     "Method": "GetContactCount",
     "RelativePath": "api/Contact/GetContactCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.DashboardWidgetsController",
+    "Method": "AppUserCount",
+    "RelativePath": "api/DashboardWidgets/AppUserCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.DashboardWidgetsController",
+    "Method": "BookingCount",
+    "RelativePath": "api/DashboardWidgets/BookingCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.DashboardWidgetsController",
+    "Method": "RoomCount",
+    "RelativePath": "api/DashboardWidgets/RoomCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.DashboardWidgetsController",
+    "Method": "StaffCount",
+    "RelativePath": "api/DashboardWidgets/StaffCount",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -509,22 +575,6 @@
   },
   {
     "ContainingType": "HotelierAPI.Controllers.RoomController",
-    "Method": "DeleteRoom",
-    "RelativePath": "api/Room",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HotelierAPI.Controllers.RoomController",
     "Method": "UpdateRoom",
     "RelativePath": "api/Room",
     "HttpMethod": "PUT",
@@ -534,6 +584,22 @@
       {
         "Name": "room",
         "Type": "Hotelier.Api.EntityLayer.Concrete.Room",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.RoomController",
+    "Method": "DeleteRoom",
+    "RelativePath": "api/Room/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -830,6 +896,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "HotelierAPI.Controllers.StaffController",
+    "Method": "Last4Staff",
+    "RelativePath": "api/Staff/Last4Staff",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HotelierAPI.Controllers.SubscribeController",
     "Method": "SubscribeList",
     "RelativePath": "api/Subscribe",
@@ -931,22 +1007,6 @@
   },
   {
     "ContainingType": "HotelierAPI.Controllers.TestimonialController",
-    "Method": "DeleteTestimonial",
-    "RelativePath": "api/Testimonial",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HotelierAPI.Controllers.TestimonialController",
     "Method": "UpdateTestimonial",
     "RelativePath": "api/Testimonial",
     "HttpMethod": "PUT",
@@ -956,6 +1016,22 @@
       {
         "Name": "testimonial",
         "Type": "Hotelier.Api.EntityLayer.Concrete.Testimonial",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelierAPI.Controllers.TestimonialController",
+    "Method": "DeleteTestimonial",
+    "RelativePath": "api/Testimonial/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

@@ -1,5 +1,4 @@
 ﻿@model UpdateRoomDto
-
 @{
     ViewData["Title"] = "UpdateRoom";
     Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
@@ -10,11 +9,11 @@
     <label>Room Number</label>
     <input type="text" asp-for="RoomNumber" class="form-control" />
     <br />
-    <label>Room Header</label>
+    <label>Room Title</label>
     <input type="text" asp-for="Title" class="form-control" />
     <br />
     <label>Price</label>
-    <input type="text" asp-for="Price" class="form-control" />
+    <input type="number" asp-for="Price" class="form-control" />
     <br />
     <label>Number of Bedrooms</label>
     <input type="text" asp-for="BedCount" class="form-control" />
@@ -25,8 +24,18 @@
     <label>Room Cover Photo</label>
     <input type="text" asp-for="RoomCoverImage" class="form-control" />
     <br />
+    <label>Wi-Fi</label>
+    <input type="text" asp-for="Wifi" class="form-control" />
+    <br />
     <label>Description</label>
     <input type="text" asp-for="Description" class="form-control" />
     <br />
-    <button class="btn btn-primary">Update Room</button>
+    <button class="btn btn-outline-success">Update Room</button>
+    <a asp-controller="AdminRoom" asp-action="Index" class="btn btn-secondary">Back</a>
 </form>
+
+
+
+   
+    
+   

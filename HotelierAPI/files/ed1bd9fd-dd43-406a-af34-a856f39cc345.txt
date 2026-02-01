@@ -1,0 +1,547 @@
+using Hotelier.Api.EntityLayer.Concrete;
+
+
+namespace Hotelier.Api.BusinessLayer.Abstract
+{
+   public interface IBookingService: IGenericService<Booking>
+    {
+        void TBookingStatusChangeApproved(Booking booking);
+        void TBookingStatusChangeApproved2(int id);
+    }
+}
+
+using Hotelier.Api.BusinessLayer.Abstract;
+using Hotelier.Api.DataAccessLayer.Abstract;
+using Hotelier.Api.EntityLayer.Concrete;
+
+namespace Hotelier.Api.BusinessLayer.Concrete
+{
+   public class BookingManager : IBookingService
+    {
+        private readonly IBookingDal _bookingDal;
+        public BookingManager(IBookingDal bookingDal)
+        {
+            _bookingDal = bookingDal;
+        }
+
+        public void TBookingStatusChangeApproved(Booking booking)
+        {
+            _bookingDal.BookingStatusChangeApproved(booking);
+        }
+
+        public void TBookingStatusChangeApproved2(int id)
+        {
+            _bookingDal.BookingStatusChangeApproved2(id);
+        }
+
+        public void TDelete(Booking t)
+        {
+            _bookingDal.Delete(t);
+        }
+        public Booking TGetByID(int id)
+        {
+            return _bookingDal.GetByID(id);
+        }
+        public List<Booking> TGetList()
+        {
+            return _bookingDal.GetList();
+        }
+        public void TInsert(Booking t)
+        {
+            _bookingDal.Insert(t);
+        }
+        public void TUpdate(Booking t)
+        {
+            _bookingDal.Update(t);
+        }
+    }
+}using Hotelier.Api.EntityLayer.Concrete;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Hotelier.Api.DataAccessLayer.Abstract
+{
+   public interface IBookingDal:IGenericDal<Booking>
+    {
+        void BookingStatusChangeApproved(Booking booking);
+        void BookingStatusChangeApproved2(int id);
+    }
+}public DbSet<Booking> Bookings { get; set; }using Hotelier.Api.DataAccessLayer.Abstract;
+using Hotelier.Api.DataAccessLayer.Concrete;
+using Hotelier.Api.DataAccessLayer.Repositories;
+using Hotelier.Api.EntityLayer.Concrete;
+
+namespace Hotelier.Api.DataAccessLayer.EntityFramework
+{
+    public class EfBookingDal : GenericRepository<Booking>, IBookingDal
+    {
+        public EfBookingDal(Context context) : base(context)
+        {
+        }
+
+        public void BookingStatusChangeApproved(Booking booking)
+        {
+            var context = new Context();
+            var values = context.Bookings.Where(x => x.BookingID == booking.BookingID).FirstOrDefault();
+            values.Status = "Confirmed";
+            context.SaveChanges();
+        }
+
+        public void BookingStatusChangeApproved2(int id)
+        {
+            var context = new Context();
+            var values = context.Bookings.Find(id);
+            values.Status = "Confirmed";
+            context.SaveChanges();
+        }
+    }
+}
+namespace Hotelier.Api.EntityLayer.Concrete
+{
+   public class Booking
+    {
+        public int BookingID { get; set; }
+        public string Name { get; set; }
+        public string EMail { get; set; }
+        public DateTime Checkin { get; set; }
+        public DateTime CheckOut { get; set; }
+        public string AdultCount { get; set; }
+        public string ChildCount { get; set; }
+        public string RoomCount { get; set; }
+        public string SpecialRequest { get; set; }
+        public string Description { get; set; }
+        public string Status { get; set; }
+    }
+}using Hotelier.Api.BusinessLayer.Abstract;
+using Hotelier.Api.EntityLayer.Concrete;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+
+namespace HotelierAPI.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class BookingController : ControllerBase
+    {
+        private readonly IBookingService _bookingService;
+
+        public BookingController(IBookingService bookingService)
+        {
+            _bookingService = bookingService;
+        }
+
+        [HttpGet]
+        public IActionResult BookingList()
+        {
+            var values = _bookingService.TGetList();
+            return Ok(values);
+        }
+        [HttpPost]
+        public IActionResult AddBooking(Booking booking)
+        {
+            _bookingService.TInsert(booking);
+            return Ok();
+        }
+        [HttpDelete("{id}")]
+        public IActionResult DeleteBooking(int id)
+        {
+            var values = _bookingService.TGetByID(id);
+            _bookingService.TDelete(values);
+            return Ok();
+        }
+        [HttpPut("UpdateBooking")]
+        public IActionResult UpdateBooking(Booking booking)
+        {
+            _bookingService.TUpdate(booking);
+            return Ok();
+        }
+        [HttpGet("{id}")]
+        public IActionResult GetBooking(int id)
+        {
+            var values = _bookingService.TGetByID(id);
+            return Ok(values);
+        }
+
+        [HttpPut("aaaaa")]
+        public IActionResult aaaaa(Booking booking)
+        {
+            _bookingService.TBookingStatusChangeApproved(booking);
+            return Ok();
+        }
+
+        [HttpGet("bbbb")]
+        public IActionResult bbbb(int id)
+        {
+            _bookingService.TBookingStatusChangeApproved2(id);
+            return Ok();
+
+        }
+    }
+} CreateMap<UpdateRoomDto, Room>().ReverseMap();builder.Services.AddScoped<IBookingDal, EfBookingDal>();
+builder.Services.AddScoped<IBookingService, BookingManager>();using Hotelier.Api.WebUI.Dtos.BookingDto;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+
+namespace Hotelier.Api.WebUI.Controllers
+{
+    public class BookingAdminController : Controller
+    {
+        private readonly IHttpClientFactory _httpClientFactory;
+
+        public BookingAdminController(IHttpClientFactory httpClientFactory)
+        {
+            _httpClientFactory = httpClientFactory;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var client = _httpClientFactory.CreateClient();
+            var responseMessage = await client.GetAsync("http://localhost:5221/api/Booking");
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                var jsonData = await responseMessage.Content.ReadAsStringAsync();
+                var values = JsonConvert.DeserializeObject<List<ResultBookingDto>>(jsonData);
+                return View(values);
+            }
+            return View();
+        }
+
+        public async Task<IActionResult> ApprovedReservation(ApprovedReservationDto approvedReservationDto)
+        {
+            var client = _httpClientFactory.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(approvedReservationDto);
+            StringContent stringContent = new StringContent(jsonData, System.Text.Encoding.UTF8, "application/json");
+            var responseMessage = await client.PutAsync($"http://localhost:5221/api/Booking/bbbb",stringContent);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+
+    }
+}
+using Hotelier.Api.WebUI.Dtos.BookingDto;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using System.Net.Http;
+using System.Text;
+
+namespace Hotelier.Api.WebUI.Controllers
+{
+    public class BookingController : Controller
+    {
+        private readonly IHttpClientFactory _httpClientFactory;
+
+        public BookingController(IHttpClientFactory httpClientFactory)
+        {
+            _httpClientFactory = httpClientFactory;
+        }
+
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+       
+        [HttpGet]
+        public PartialViewResult AddBooking()
+        {
+            return PartialView();
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> AddBooking(CreateBookingDto createBookingDto)
+        {
+            createBookingDto.Status = "Awaiting Approval";
+            var client = _httpClientFactory.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(createBookingDto);
+            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            await client.PostAsync("http://localhost:5221/api/Booking", stringContent);
+            Console.WriteLine(stringContent);
+            return RedirectToAction("Index", "Default");
+        }
+    }
+}
+namespace Hotelier.Api.WebUI.Dtos.BookingDto
+{
+    public class ApprovedBookingDto
+    {
+        public int BookingID { get; set; }
+        public string Name { get; set; }
+        public string EMail { get; set; }
+        public DateTime Checkin { get; set; }
+        public DateTime CheckOut { get; set; }
+        public string AdultCount { get; set; }
+        public string ChildCount { get; set; }
+        public string RoomCount { get; set; }
+        public string SpecialRequest { get; set; }
+        public string Description { get; set; }
+        public string Status { get; set; }
+    }
+}
+namespace Hotelier.Api.WebUI.Dtos.BookingDto
+{
+    public class ApprovedReservationDto
+    {
+        public int BookingID { get; set; }
+        public string Name { get; set; }
+        public string EMail { get; set; }
+        public DateTime Checkin { get; set; }
+        public DateTime CheckOut { get; set; }
+        public string AdultCount { get; set; }
+        public string ChildCount { get; set; }
+        public string RoomCount { get; set; }
+        public string SpecialRequest { get; set; }
+        public string Description { get; set; }
+        public string Status { get; set; }
+    }
+}
+namespace Hotelier.Api.WebUI.Dtos.BookingDto
+{
+    public class CreateBookingDto
+    {
+        public string Name { get; set; }
+        public string EMail { get; set; }
+        public DateTime Checkin { get; set; }
+        public DateTime CheckOut { get; set; }
+        public string AdultCount { get; set; }
+        public string ChildCount { get; set; }
+        public string RoomCount { get; set; }
+        public string SpecialRequest { get; set; }
+        public string Description { get; set; }
+        public string Status { get; set; }
+    }
+}
+namespace Hotelier.Api.WebUI.Dtos.BookingDto
+{
+    public class ResultBookingDto
+    {
+        public int BookingID { get; set; }
+        public string Name { get; set; }
+        public string EMail { get; set; }
+        public DateTime Checkin { get; set; }
+        public DateTime CheckOut { get; set; }
+        public string AdultCount { get; set; }
+        public string ChildCount { get; set; }
+        public string RoomCount { get; set; }
+        public string SpecialRequest { get; set; }
+        public string Description { get; set; }
+        public string Status { get; set; }
+    }
+}
+            CreateMap<CreateBookingDto, Booking>().ReverseMap();         
+            CreateMap<ApprovedReservationDto, Booking>().ReverseMap();using Microsoft.AspNetCore.Mvc;
+
+namespace Hotelier.Api.WebUI.ViewComponents.Booking
+{
+    public class _BookingCoverPartial : ViewComponent
+    {
+        public IViewComponentResult Invoke()
+        {
+            return View();
+        }
+    }
+}@model CreateBookingDto
+
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title text-center text-primary text-uppercase">Reservation Panel</h6>
+            <h1 class="mb-5">Book <span class="text-primary text-uppercase">Your Room Now.</span></h1>
+        </div>
+        <div class="row g-5">
+            <div class="col-lg-6">
+                <div class="row g-3">
+                    <div class="col-6 text-end">
+                        <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="~/hotel-html-template/img/about-1.jpg" style="margin-top: 25%;">
+                    </div>
+                    <div class="col-6 text-start">
+                        <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="~/hotel-html-template/img/about-2.jpg">
+                    </div>
+                    <div class="col-6 text-end">
+                        <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="~/hotel-html-template/img/about-3.jpg">
+                    </div>
+                    <div class="col-6 text-start">
+                        <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="~/hotel-html-template/img/about-4.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="wow fadeInUp" data-wow-delay="0.2s">
+                    <form method="post" asp-action="AddBooking" asp-controller="Booking">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" asp-for="Name" placeholder="Name Surname" />
+                                    <label for="Name">Name Surname</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" asp-for="EMail" placeholder="Your Email Address" />
+                                    <label for="email">Your Email Address</label>
+                                </div>
+                            </div>
+
+                            <!-- Entry Date -->
+                            <div class="col-md-6">
+                                <div class="form-floating date input-group" id="date3" data-target-input="nearest">
+                                    <input type="text" class="form-control datetimepicker-input" asp-for="Checkin" id="checkin" placeholder="<Entry Date" data-target="#date3" />
+                                    <div class="input-group-append" data-target="#date3" data-toggle="datetimepicker">
+                                        <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                                    </div>
+                                    <label for="checkin"><Entry Date</label>
+                                </div>
+                            </div>
+
+                            <!-- Release Date -->
+                            <div class="col-md-6">
+                                <div class="form-floating date input-group" id="date4" data-target-input="nearest">
+                                    <input type="text" class="form-control datetimepicker-input" asp-for="CheckOut" id="checkout" placeholder="<Release Date" data-target="#date4" />
+                                    <div class="input-group-append" data-target="#date4" data-toggle="datetimepicker">
+                                        <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                                    </div>
+                                    <label for="checkout">Release Date</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <select class="form-select" id="select1" asp-for="AdultCount">
+                                        <option value="1">Adult 1</option>
+                                        <option value="2">Adult 2</option>
+                                        <option value="3">Adult 3</option>
+                                    </select>
+                                    <label for="select1">Adult Count</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <select class="form-select" id="select2" asp-for="ChildCount">
+                                        <option value="1">Child 1</option>
+                                        <option value="2">Child 2</option>
+                                        <option value="3">Child 3</option>
+                                    </select>
+                                    <label for="select2">Child Count</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <select class="form-select" id="select3" asp-for="RoomCount">
+                                        <option value="1">Room 1</option>
+                                        <option value="2">Room 2</option>
+                                        <option value="3">Room 3</option>
+                                    </select>
+                                    <label for="select3">Room Count</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Special Requests" asp-for="SpecialRequest" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Special Requests</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Make a Reservation</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+@await Component.InvokeAsync("_HeadComponentPartial")
+
+<body>
+    <div class="container-xxl bg-white p-0">
+
+        @await Component.InvokeAsync("_SpinnerComponentPartial")
+
+        @await Component.InvokeAsync("_NavbarComponentPartial")
+
+        @await Component.InvokeAsync("_BookingCoverComponentPartial")
+
+        @await Html.PartialAsync("/Views/Booking/AddBooking.cshtml")
+
+        @await Html.PartialAsync("/Views/Default/_SubscribePartial.cshtml")
+
+        @await Component.InvokeAsync("_FooterComponentPartial")
+
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+    @await Component.InvokeAsync("_ScriptsComponentPartial")
+</body>
+</html>
+</html>@model List<ResultBookingDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+    int count = 0;
+}
+
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Guest</th>
+                            <th>Entry Date</th>
+                            <th>Release Date</th>
+                            <th>Situation</th>
+                            <th>Confirm</th>
+                            <th>Cancel</th>
+                            <th>Hold</th>
+                            <th>Update</th>
+                            <th>Details</th> 
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                                {
+                                    count++;
+                        <tr>
+                            <th>@count</th>
+                            <td>@item.Name</td>
+                            <td>@(((DateTime)item.Checkin).ToString("dd-MMM-yyyy"))</td>
+                            <td>@(((DateTime)item.CheckOut).ToString("dd-MMM-yyyy"))</td>
+                            <td><span class="badge badge-primary px-2">@item.Status</span></td>
+                    <td><a href="BookingAdmin/ApprovedReservation/@item.BookingID" class="btn mb-1 btn-rounded btn-outline-primary">Confirm</a></td>
+                    <td><a href="#" class="btn mb-1 btn-rounded btn-outline-danger">Cancel</a></td>
+                    <td><a href="#" class="btn mb-1 btn-rounded btn-outline-warning">Hold</a></td>
+                    <td><a href="#" class="btn mb-1 btn-rounded btn-outline-info">Update</a></td>
+                    <td><a href="#" class="btn mb-1 btn-rounded btn-outline-dark">Details</a></td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>﻿﻿<div class="container-fluid page-header mb-5 p-0" style="background-image: url(/hotel-html-template/img/carousel-1.jpg);">
+    <div class="container-fluid page-header-inner py-5">
+        <div class="container text-center pb-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Reservation</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center text-uppercase">
+                    <li class="breadcrumb-item"><a href="/Default/Index/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Communication</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Reservation</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>@using Hotelier.Api.WebUI.Dtos.BookingDto 
+
+
+
+

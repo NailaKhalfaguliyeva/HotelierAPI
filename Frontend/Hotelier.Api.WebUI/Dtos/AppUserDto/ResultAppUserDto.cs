@@ -1,4 +1,4 @@
-﻿using Hotelier.Api.EntityLayer.Concrete;
+﻿
 
 namespace Hotelier.Api.WebUI.Dtos.AppUserDto
 {

@@ -1,6 +1,6 @@
 ﻿using Hotelier.Api.BusinessLayer.Abstract;
 using Hotelier.Api.EntityLayer.Concrete;
-using Microsoft.AspNetCore.Http;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotelierAPI.Controllers
@@ -42,25 +42,38 @@ namespace HotelierAPI.Controllers
             return Ok();
         }
         [HttpGet("{id}")]
-        public IActionResult GetBooking(int id)
+        public IActionResult GetBookingById(int id)
         {
             var values = _bookingService.TGetByID(id);
             return Ok(values);
         }
 
-        [HttpPut("aaaaa")]
-        public IActionResult aaaaa(Booking booking)
+        [HttpGet("Last6Booking")]
+        public IActionResult Last6Booking()
         {
-            _bookingService.TBookingStatusChangeApproved(booking);
+            var values = _bookingService.TLast6Bookings();
+            return Ok(values);
+        }
+
+        [HttpPut("BookingAproved")]
+        public IActionResult BookingAproved(int id)
+        {
+            _bookingService.TBookingStatusChangeApproved3(id);
             return Ok();
         }
 
-        [HttpGet("bbbb")]
-        public IActionResult bbbb(int id)
+        [HttpGet("BookingCancel")]
+        public IActionResult BookingCancel(int id)
         {
-            _bookingService.TBookingStatusChangeApproved2(id);
+            _bookingService.TBookingStatusChangeCancel(id);
             return Ok();
-
+        }
+        [HttpGet("BookingWait")]
+        public IActionResult BookingWait(int id)
+        {
+            _bookingService.TBookingStatusChangeWait(id);
+            return Ok();
+ 
         }
     }
 }

@@ -17,5 +17,14 @@ namespace Hotelier.Api.WebUI.Dtos.RegisterDto
         [Required(ErrorMessage = "Repeat Password Field Required")]
         [Compare("Password", ErrorMessage = "Passwords Do Not Match")]
         public string ConfirmPassword { get; set; }
+        [Required(ErrorMessage = "City Field Required")]
+        public string City { get; set; }
+        [Required(ErrorMessage = "Country Field Required")]
+        public string? Country { get; set; }
+        public string? Gender { get; set; }
+        public string? WorkDepartment { get; set; }
+        public int WorkLocationID { get; set; }
+        public string? ImageUrl { get; set; }
     }
+
 }

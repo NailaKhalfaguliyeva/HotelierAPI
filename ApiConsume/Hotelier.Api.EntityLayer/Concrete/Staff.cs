@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace Hotelier.Api.EntityLayer.Concrete
 {
@@ -14,5 +10,6 @@ namespace Hotelier.Api.EntityLayer.Concrete
         public string SocialMedia1 { get; set; }
         public string SocialMedia2 { get; set; }
         public string SocialMedia3 { get; set; }
+        public string ImageUrl { get; set; }
     }
 }

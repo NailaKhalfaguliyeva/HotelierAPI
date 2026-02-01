@@ -1,6 +1,6 @@
 ﻿using Hotelier.Api.BusinessLayer.Abstract;
 using Hotelier.Api.EntityLayer.Concrete;
-using Microsoft.AspNetCore.Http;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotelierAPI.Controllers
@@ -30,7 +30,7 @@ namespace HotelierAPI.Controllers
             return Ok();
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteRoom(int id)
         {
             var values = _roomService.TGetByID(id);
@@ -47,7 +47,7 @@ namespace HotelierAPI.Controllers
         public IActionResult GetRoom(int id)
         {
             var values = _roomService.TGetByID(id);
-            return Ok();
+            return Ok(values);
         }
     }
 }

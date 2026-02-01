@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Frontend\\Hotelier.Api.WebUI\\Hotelier.Api.WebUI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "HotelierAPI\\HotelierAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "RapidAPI\\RapidAPI.Consume\\RapidAPI.Consume.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "JwtProject\\WebApiJwt\\WebApiJwt.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,6 +1,6 @@
 ﻿using Hotelier.Api.BusinessLayer.Abstract;
 using Hotelier.Api.EntityLayer.Concrete;
-using Microsoft.AspNetCore.Http;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotelierAPI.Controllers
@@ -45,6 +45,13 @@ namespace HotelierAPI.Controllers
         public IActionResult GetStaff(int id)
         {
             var values = _staffService.TGetByID(id);
+            return Ok(values);
+        }
+
+        [HttpGet("Last4Staff")]
+        public IActionResult Last4Staff()
+        {
+            var values = _staffService.TLast4Staff();
             return Ok(values);
         }
 

@@ -2,6 +2,6 @@
 {
     public class CreateSubscribeDto
     {
-        public string Mail { get; set; }
+        public string Email { get; set; }
     }
 }

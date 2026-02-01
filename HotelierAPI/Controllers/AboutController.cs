@@ -1,6 +1,6 @@
 ﻿using Hotelier.Api.BusinessLayer.Abstract;
 using Hotelier.Api.EntityLayer.Concrete;
-using Microsoft.AspNetCore.Http;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotelierAPI.Controllers
@@ -41,7 +41,7 @@ namespace HotelierAPI.Controllers
             return Ok();
         }
         [HttpGet("{id}")]
-        public IActionResult GetAboutById(int id)
+        public IActionResult GetAboutId(int id)
         {
             var values = _aboutService.TGetByID(id);
             return Ok(values);

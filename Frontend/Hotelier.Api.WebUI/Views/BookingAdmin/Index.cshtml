@@ -32,12 +32,12 @@
                             <td>@(((DateTime)item.Checkin).ToString("dd-MMM-yyyy"))</td>
                             <td>@(((DateTime)item.CheckOut).ToString("dd-MMM-yyyy"))</td>
                             <td><span class="badge badge-primary px-2">@item.Status</span></td>
-                    <td><a href="BookingAdmin/ApprovedReservation/@item.BookingID" class="btn mb-1 btn-rounded btn-outline-primary">Confirm</a></td>
-                    <td><a href="#" class="btn mb-1 btn-rounded btn-outline-danger">Cancel</a></td>
-                    <td><a href="#" class="btn mb-1 btn-rounded btn-outline-warning">Hold</a></td>
-                    <td><a href="#" class="btn mb-1 btn-rounded btn-outline-info">Update</a></td>
-                    <td><a href="#" class="btn mb-1 btn-rounded btn-outline-dark">Details</a></td>
-                        </tr>
+                    <td><a href="/BookingAdmin/ApprovedReservation2/@item.BookingID" class="btn btn-outline-primary">Confirm</a></td>
+                    <td><a href="/BookingAdmin/CancelReservation/@item.BookingID" class="btn btn-outline-danger">Cancel</a></td>
+                    <td><a href="/BookingAdmin/WaitReservation/@item.BookingID" class="btn btn-outline-warning">Hold</a></td>
+                    <td><a href="/BookingAdmin/UpdateBooking/@item.BookingID" class="btn btn-outline-info">Update</a></td>
+                    <td><a href="/BookingAdmin/UpdateBooking/@item.BookingID" class="btn btn-outline-dark">Details</a></td>
+                </tr>
                         }
                     </tbody>
                 </table>

@@ -25,6 +25,44 @@ namespace Hotelier.Api.DataAccessLayer.EntityFramework
             var values = context.Bookings.Find(id);
             values.Status = "Confirmed";
             context.SaveChanges();
+        }     
+
+        public void BookingStatusChangeApproved3(int id)
+        {
+            var context = new Context();
+            var values = context.Bookings.Find(id);
+            values.Status = "Confirmed";
+            context.SaveChanges();
+        }
+
+        public void BookingStatusChangeCancel(int id)
+        {
+            var context = new Context();
+            var values = context.Bookings.Find(id);
+            values.Status = "Canceled";
+            context.SaveChanges();
+        }
+
+        public void BookingStatusChangeWait(int id)
+        {
+            var context = new Context();
+            var values = context.Bookings.Find(id);
+            values.Status = "Customers will be contacted.";
+            context.SaveChanges();
+        }
+
+        public int GetBookingCount()
+        {
+            var context = new Context();
+            var values = context.Bookings.Count();
+            return values;
+        }
+
+        public List<Booking> Last6Bookings()
+        {
+            var context = new Context();
+            var values = context.Bookings.OrderByDescending(x => x.BookingID).Take(6).ToList();
+            return values;
         }
     }
 }

@@ -1,5 +1,5 @@
 ﻿using Hotelier.Api.BusinessLayer.Abstract;
-using Microsoft.AspNetCore.Http;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotelierAPI.Controllers
@@ -14,12 +14,7 @@ namespace HotelierAPI.Controllers
             _appUserService = appUserService;
         }
 
-        //[HttpGet]
-        //public IActionResult UserListWithWorkLocation()
-        //{
-        //    var values = _appUserService.TUserListWithWorkLocation();
-        //    return Ok(values);
-        //}
+
 
         [HttpGet]
         public IActionResult AppUserList()

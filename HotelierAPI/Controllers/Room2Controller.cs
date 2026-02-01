@@ -2,7 +2,7 @@
 using Hotelier.Api.BusinessLayer.Abstract;
 using Hotelier.Api.DtoLayer.Dtos.RoomDto;
 using Hotelier.Api.EntityLayer.Concrete;
-using Microsoft.AspNetCore.Http;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotelierAPI.Controllers

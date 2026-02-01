@@ -1,0 +1,26 @@
+﻿@model ResultRoomDto
+@{
+    ViewData["Title"] = "DetailsRoom";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Room Details</h4>
+        <hr />
+
+        <p><b>ID:</b> @Model.RoomID</p>
+        <p><b>Room Number:</b> @Model.RoomNumber</p>
+        <p><b>Title:</b> @Model.Title</p>
+        <p><b>Price:</b> @Model.Price</p>
+        <p><b>Bed Count:</b> @Model.BedCount</p>
+        <p><b>Bath Count:</b> @Model.BathCount</p>
+        <p><b>Wifi:</b> @Model.Wifi</p>
+        <p><b>Description:</b> @Model.Description</p>
+
+        <p><b>Cover Image:</b></p>
+        <img src="@Model.RoomCoverImage" style="max-width:300px;border-radius:10px;" />
+        <a href="/AdminRoom/UpdateRoom/@Model.RoomID" class="btn btn-outline-success">Update</a>
+        <a href="/AdminRoom/Index" class="btn btn-outline-secondary">Back</a>
+    </div>
+</div>

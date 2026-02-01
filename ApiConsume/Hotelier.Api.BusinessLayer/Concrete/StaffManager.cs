@@ -1,11 +1,7 @@
 ﻿using Hotelier.Api.BusinessLayer.Abstract;
 using Hotelier.Api.DataAccessLayer.Abstract;
 using Hotelier.Api.EntityLayer.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Hotelier.Api.BusinessLayer.Concrete
 {
@@ -33,9 +29,19 @@ namespace Hotelier.Api.BusinessLayer.Concrete
             return _staffDal.GetList();
         }
 
+        public int TGetStaffCount()
+        {
+            return _staffDal.GetStaffCount();
+        }
+
         public void TInsert(Staff t)
         {
             _staffDal.Insert(t);
+        }
+
+        public List<Staff> TLast4Staff()
+        {
+            return _staffDal.Last4Staff();
         }
 
         public void TUpdate(Staff t)

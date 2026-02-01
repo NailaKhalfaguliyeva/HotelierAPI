@@ -26,7 +26,7 @@ namespace Hotelier.Api.WebUI.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return View();
+                return View(createNewUserDto);
             }
             var appUser = new AppUser()
             {
@@ -34,6 +34,11 @@ namespace Hotelier.Api.WebUI.Controllers
                 Surname = createNewUserDto.Surname,
                 UserName = createNewUserDto.UserName,
                 Email = createNewUserDto.Email,
+                City = createNewUserDto.City,
+                Country = createNewUserDto.Country,
+                Gender = createNewUserDto.Gender,
+                WorkDepartment = createNewUserDto.WorkDepartment,
+                ImageUrl = createNewUserDto.ImageUrl,
                 WorkLocationID = 1
             };
             var result = await _userManager.CreateAsync(appUser, createNewUserDto.Password);
@@ -41,6 +46,7 @@ namespace Hotelier.Api.WebUI.Controllers
             {
                 return RedirectToAction("Index", "Login");
             }
+           
             return View();
         }
     }

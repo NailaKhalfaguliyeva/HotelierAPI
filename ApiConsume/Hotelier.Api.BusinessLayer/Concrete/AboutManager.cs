@@ -1,8 +1,7 @@
 ﻿using Hotelier.Api.BusinessLayer.Abstract;
 using Hotelier.Api.DataAccessLayer.Abstract;
 using Hotelier.Api.EntityLayer.Concrete;
-using System;
-using System.Collections.Generic;
+
 
 namespace Hotelier.Api.BusinessLayer.Concrete
 {

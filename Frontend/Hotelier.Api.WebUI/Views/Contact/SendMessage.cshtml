@@ -33,36 +33,42 @@
                     <form method="post" asp-action="SendMessage" asp-controller="Contact">
                         <div class="row g-3">
                             <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name Surname" name="Name">
-                                    <label for="name">Your Name Surname</label>
+                                <div class="form-floating">                               
+                                    <input asp-for="Name" class="form-control" placeholder="Your Name Surname" />
+                                    <label asp-for="Name">Your Name Surname</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email" name="EMail">
-                                    <label for="email">Your Email</label>
+                                    <input asp-for="Email" class="form-control" placeholder="Your Email" />
+                                    <label asp-for="Email">Your Email</label>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject" name="Subject">
-                                    <label for="subject">Choose a topic.</label>
-                                </div>
+                                <div class="form-floating">                                  
+                                    @Html.DropDownListFor(
+                                             x => x.MessageCategoryID,
+                                             (List<SelectListItem>)ViewBag.v,
+                                             "Choose a topic",
+                                             new { @class = "form-select" }
+                                             )
+                                    <label>Choose a topic</label>
+                                </div>                                  
                                 <br />
+                                <div class="col-12">
                                 <div class="form-floating">
-                                    @Html.DropDownListFor(x=>x.MessageCategoryID,(List<SelectListItem>)ViewBag.v,new {@class="form-control"})
-                                    <label for="subject">Write the subject title.</label>
+                                        <input asp-for="Subject" class="form-control" placeholder="Write the subject title" />
+                                        <label asp-for="Subject">Write the subject title</label>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="You can write your message here." name="Message" id="message" style="height: 150px"></textarea>
-                                    <label for="message">Message</label>
+                                <div class="form-floating">                                
+                                        <textarea asp-for="Message" class="form-control" style="height:150px" placeholder="You can write your message here."></textarea>
+                                        <label asp-for="Message">Message</label>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
                             </div>
                         </div>
                     </form>

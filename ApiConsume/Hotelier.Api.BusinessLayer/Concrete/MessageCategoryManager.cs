@@ -1,11 +1,10 @@
-﻿using Hotelier.Api.BusinessLayer.Abstract;
+﻿
+using Hotelier.Api.BusinessLayer.Abstract;
 using Hotelier.Api.DataAccessLayer.Abstract;
+
 using Hotelier.Api.EntityLayer.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+
 
 namespace Hotelier.Api.BusinessLayer.Concrete
 {
@@ -19,12 +18,12 @@ namespace Hotelier.Api.BusinessLayer.Concrete
 
         public void TDelete(MessageCategory t)
         {
-            throw new NotImplementedException();
+            _messageCategoryDal.Delete(t);
         }
 
         public MessageCategory TGetByID(int id)
         {
-            throw new NotImplementedException();
+            return _messageCategoryDal.GetByID(id);
         }
 
         public List<MessageCategory> TGetList()
@@ -34,12 +33,12 @@ namespace Hotelier.Api.BusinessLayer.Concrete
 
         public void TInsert(MessageCategory t)
         {
-            throw new NotImplementedException();
+            _messageCategoryDal.Insert(t);
         }
 
         public void TUpdate(MessageCategory t)
         {
-            throw new NotImplementedException();
+            _messageCategoryDal.Update(t);
         }
     }
 }

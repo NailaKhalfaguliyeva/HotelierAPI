@@ -1,11 +1,7 @@
 ﻿using Hotelier.Api.BusinessLayer.Abstract;
 using Hotelier.Api.DataAccessLayer.Abstract;
 using Hotelier.Api.EntityLayer.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Hotelier.Api.BusinessLayer.Concrete
 {
@@ -20,7 +16,7 @@ namespace Hotelier.Api.BusinessLayer.Concrete
 
         public void TDelete(Contact t)
         {
-            throw new NotImplementedException();
+            _contactDal.Delete(t);
         }
 
         public Contact TGetByID(int id)
@@ -45,7 +41,7 @@ namespace Hotelier.Api.BusinessLayer.Concrete
 
         public void TUpdate(Contact t)
         {
-            throw new NotImplementedException();
+            _contactDal.Update(t);
         }
     }
 }

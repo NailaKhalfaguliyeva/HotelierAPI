@@ -1,10 +1,11 @@
 ﻿using Hotelier.Api.WebUI.Dtos.ContactDto;
 using Hotelier.Api.WebUI.Dtos.SendMessageDto;
-using Hotelier.Api.WebUI.Models.Staff;
+
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Text;
-using System.Threading.Tasks;
+
+
 
 namespace Hotelier.Api.WebUI.Controllers
 {
@@ -65,7 +66,7 @@ namespace Hotelier.Api.WebUI.Controllers
         [HttpPost]
         public async Task<IActionResult> AddSendMessage(CreateSendMessage createSendMessage )
         {
-            createSendMessage.SenderEMail= "admin@gmail.com";
+            createSendMessage.SenderEmail= "admin@gmail.com";
             createSendMessage.SenderName = "Admin";
             createSendMessage.Date = DateTime.Parse(DateTime.Now.ToShortDateString());
             var client = _httpClientFactory.CreateClient();
@@ -85,10 +86,8 @@ namespace Hotelier.Api.WebUI.Controllers
             return PartialView();
         }
 
-        public PartialViewResult SideBarAdminContactCategoryPartial()
-        {
-            return PartialView();
-        }
+
+
 
         public async Task<IActionResult> MessageDetailsBySendBox(int id)
         {
@@ -116,19 +115,7 @@ namespace Hotelier.Api.WebUI.Controllers
             return View();
         }
 
-        //public async Task<IActionResult> GetContactCount()
-        //{
-            //var client = _httpClientFactory.CreateClient();
-            //var responseMessage = await client.GetAsync("http://localhost:5221/api/GetContactCount");
-            //if (responseMessage.IsSuccessStatusCode)
-            //{
-            //    var jsonData = await responseMessage.Content.ReadAsStringAsync();
-            //    // var values = JsonConvert.DeserializeObject<List<InboxContactDto>>(jsonData);
-            //    ViewBag.data = jsonData;
-            //    return View();
-            //}
-            //return View();
-       // }
+
 
     }
 }

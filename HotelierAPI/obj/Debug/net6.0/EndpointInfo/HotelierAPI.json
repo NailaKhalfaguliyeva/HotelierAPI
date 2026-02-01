@@ -279,35 +279,11 @@
         }
       }
     },
-    "/api/Booking/aaaaa": {
-      "put": {
+    "/api/Booking/Last6Booking": {
+      "get": {
         "tags": [
           "Booking"
         ],
-        "requestBody": {
-          "content": {
-            "application/json-patch+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Booking"
-              }
-            },
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Booking"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Booking"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Booking"
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "Success"
@@ -315,7 +291,51 @@
         }
       }
     },
-    "/api/Booking/bbbb": {
+    "/api/Booking/BookingAproved": {
+      "put": {
+        "tags": [
+          "Booking"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Booking/BookingCancel": {
+      "get": {
+        "tags": [
+          "Booking"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Booking/BookingWait": {
       "get": {
         "tags": [
           "Booking"
@@ -346,22 +366,22 @@
           "content": {
             "application/json-patch+json": {
               "schema": {
-                "$ref": "#/components/schemas/Contact"
+                "$ref": "#/components/schemas/CreateContactDto"
               }
             },
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Contact"
+                "$ref": "#/components/schemas/CreateContactDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Contact"
+                "$ref": "#/components/schemas/CreateContactDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Contact"
+                "$ref": "#/components/schemas/CreateContactDto"
               }
             }
           }
@@ -410,6 +430,54 @@
       "get": {
         "tags": [
           "Contact"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DashboardWidgets/StaffCount": {
+      "get": {
+        "tags": [
+          "DashboardWidgets"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DashboardWidgets/BookingCount": {
+      "get": {
+        "tags": [
+          "DashboardWidgets"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DashboardWidgets/AppUserCount": {
+      "get": {
+        "tags": [
+          "DashboardWidgets"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/DashboardWidgets/RoomCount": {
+      "get": {
+        "tags": [
+          "DashboardWidgets"
         ],
         "responses": {
           "200": {
@@ -847,26 +915,6 @@
           }
         }
       },
-      "delete": {
-        "tags": [
-          "Room"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Success"
-          }
-        }
-      },
       "put": {
         "tags": [
           "Room"
@@ -903,6 +951,27 @@
       }
     },
     "/api/Room/{id}": {
+      "delete": {
+        "tags": [
+          "Room"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
       "get": {
         "tags": [
           "Room"
@@ -1389,6 +1458,18 @@
         }
       }
     },
+    "/api/Staff/Last4Staff": {
+      "get": {
+        "tags": [
+          "Staff"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Subscribe": {
       "get": {
         "tags": [
@@ -1557,26 +1638,6 @@
           }
         }
       },
-      "delete": {
-        "tags": [
-          "Testimonial"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Success"
-          }
-        }
-      },
       "put": {
         "tags": [
           "Testimonial"
@@ -1613,6 +1674,27 @@
       }
     },
     "/api/Testimonial/{id}": {
+      "delete": {
+        "tags": [
+          "Testimonial"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
       "get": {
         "tags": [
           "Testimonial"
@@ -1905,7 +1987,7 @@
             "type": "string",
             "nullable": true
           },
-          "eMail": {
+          "email": {
             "type": "string",
             "nullable": true
           },
@@ -1940,6 +2022,14 @@
           "status": {
             "type": "string",
             "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1955,7 +2045,7 @@
             "type": "string",
             "nullable": true
           },
-          "eMail": {
+          "email": {
             "type": "string",
             "nullable": true
           },
@@ -1981,6 +2071,36 @@
         },
         "additionalProperties": false
       },
+      "CreateContactDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "subject": {
+            "type": "string",
+            "nullable": true
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "messageCategoryID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "Guest": {
         "type": "object",
         "properties": {
@@ -1988,11 +2108,11 @@
             "type": "integer",
             "format": "int32"
           },
-          "guestName": {
+          "name": {
             "type": "string",
             "nullable": true
           },
-          "guestSurname": {
+          "surname": {
             "type": "string",
             "nullable": true
           },
@@ -2070,9 +2190,11 @@
         "required": [
           "bathCount",
           "bedCount",
+          "description",
           "price",
           "roomNumber",
-          "title"
+          "title",
+          "wifi"
         ],
         "type": "object",
         "properties": {
@@ -2101,12 +2223,12 @@
             "type": "string"
           },
           "wifi": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "description": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           }
         },
         "additionalProperties": false
@@ -2122,7 +2244,7 @@
             "type": "string",
             "nullable": true
           },
-          "receiverMail": {
+          "receiverEmail": {
             "type": "string",
             "nullable": true
           },
@@ -2130,7 +2252,7 @@
             "type": "string",
             "nullable": true
           },
-          "senderEMail": {
+          "senderEmail": {
             "type": "string",
             "nullable": true
           },
@@ -2197,6 +2319,10 @@
           "socialMedia3": {
             "type": "string",
             "nullable": true
+          },
+          "imageUrl": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -2208,7 +2334,7 @@
             "type": "integer",
             "format": "int32"
           },
-          "mail": {
+          "email": {
             "type": "string",
             "nullable": true
           }
@@ -2249,7 +2375,8 @@
           "price",
           "roomCoverImage",
           "roomNumber",
-          "title"
+          "title",
+          "wifi"
         ],
         "type": "object",
         "properties": {
@@ -2283,8 +2410,8 @@
             "type": "string"
           },
           "wifi": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "description": {
             "minLength": 1,

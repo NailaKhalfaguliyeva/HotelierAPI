@@ -1,0 +1,30 @@
+﻿@model UserEditViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<h1>Profile Information and Password Update</h1>
+
+<form method="post">
+    <label>Your Name</label>
+    <input type="text" class="form-control" asp-for="Name" />
+    <br />
+    <label>Your Surname</label>
+    <input type="text" class="form-control" asp-for="Surname" />
+    <br />
+    <label>Your Username</label>
+    <input type="text" class="form-control" asp-for="Username" readonly />
+    <br />
+    <label>Your Email Address</label>
+    <input type="text" class="form-control" asp-for="Email" />
+    <br />
+    <label>Your password</label>
+    <input type="password" class="form-control" asp-for="Password" />
+    <br />
+    <label>Your password again</label>
+    <input type="password" class="form-control" asp-for="ConfirmPassword" />
+    <br />
+    <button class="btn btn-success">Update Information</button>
+</form>

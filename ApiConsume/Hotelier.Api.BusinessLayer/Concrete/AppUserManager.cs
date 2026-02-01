@@ -1,11 +1,7 @@
 ﻿using Hotelier.Api.BusinessLayer.Abstract;
 using Hotelier.Api.DataAccessLayer.Abstract;
 using Hotelier.Api.EntityLayer.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Hotelier.Api.BusinessLayer.Concrete
 {
@@ -18,14 +14,19 @@ namespace Hotelier.Api.BusinessLayer.Concrete
             _appUserDal = appUserDal;
         }
 
+        public int TAppUserCount()
+        {
+            return _appUserDal.AppUserCount();
+        }
+
         public void TDelete(AppUser t)
         {
-            throw new NotImplementedException();
+            _appUserDal.Delete(t);
         }
 
         public AppUser TGetByID(int id)
         {
-            throw new NotImplementedException();
+            return _appUserDal.GetByID(id);
         }
 
         public List<AppUser> TGetList()
@@ -35,12 +36,12 @@ namespace Hotelier.Api.BusinessLayer.Concrete
 
         public void TInsert(AppUser t)
         {
-            throw new NotImplementedException();
+            _appUserDal.Insert(t);
         }
 
         public void TUpdate(AppUser t)
         {
-            throw new NotImplementedException();
+            _appUserDal.Update(t);
         }
 
         public List<AppUser> TUserListWithWorkLocation()
